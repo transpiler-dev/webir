@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "patternProperties": {
+    "^[A-Za-z0-9_]+$": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/irEntry" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "parameter": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "type": { "type": "string" },
+        "optional": { "type": "boolean" },
+        "rest": { "type": "boolean" }
+      },
+      "required": ["name", "type", "optional", "rest"],
+      "additionalProperties": false
+    },
+    "methodEntry": {
+      "type": "object",
+      "properties": {
+        "interface": { "type": "string" },
+        "kind": { "const": "method" },
+        "name": { "type": "string" },
+        "parameters": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/parameter" }
+        },
+        "arity": { "type": "integer" },
+        "required": { "type": "integer" },
+        "returnType": { "type": "string" },
+        "thisType": { "type": "string" },
+        "doc": { "type": "string" }
+      },
+      "required": ["interface", "kind", "name", "parameters", "arity", "required", "returnType"],
+      "additionalProperties": false
+    },
+    "propertyEntry": {
+      "type": "object",
+      "properties": {
+        "interface": { "type": "string" },
+        "kind": { "enum": ["property", "event"] },
+        "name": { "type": "string" },
+        "type": { "type": "string" },
+        "doc": { "type": "string" }
+      },
+      "required": ["interface", "kind", "name", "type"],
+      "additionalProperties": false
+    },
+    "irEntry": {
+      "oneOf": [
+        { "$ref": "#/$defs/methodEntry" },
+        { "$ref": "#/$defs/propertyEntry" }
+      ]
+    }
+  }
+}
