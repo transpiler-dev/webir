@@ -1,14 +1,14 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "patternProperties": {
     "^[A-Za-z0-9_]+$": {
       "type": "array",
-      "items": { "$ref": "#/definitions/irEntry" }
+      "items": { "$ref": "#/$defs/irEntry" }
     }
   },
   "additionalProperties": false,
-  "definitions": {
+  "$defs": {
     "parameter": {
       "type": "object",
       "properties": {
@@ -28,7 +28,7 @@
         "name": { "type": "string" },
         "parameters": {
           "type": "array",
-          "items": { "$ref": "#/definitions/parameter" }
+          "items": { "$ref": "#/$defs/parameter" }
         },
         "arity": { "type": "integer" },
         "required": { "type": "integer" },
@@ -53,8 +53,8 @@
     },
     "irEntry": {
       "oneOf": [
-        { "$ref": "#/definitions/methodEntry" },
-        { "$ref": "#/definitions/propertyEntry" }
+        { "$ref": "#/$defs/methodEntry" },
+        { "$ref": "#/$defs/propertyEntry" }
       ]
     }
   }
