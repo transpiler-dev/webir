@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 import Ajv2020 from "ajv/dist/2020";
-import schema from "../../ir.schema.json" assert { type: "json" };
+import schema from "../../resources/ir.schema.json" assert { type: "json" };
 
 export function runValidate(file?: string) {
   const input = file && file !== "-" ? readFileSync(file, "utf-8") : readFileSync(0, "utf-8");
