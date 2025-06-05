@@ -2,8 +2,9 @@ import { readFileSync } from "fs";
 import Ajv from "ajv";
 import schema from "../../ir.schema.json" assert { type: "json" };
 
-export function runValidate(file: string) {
-  const json = JSON.parse(readFileSync(file, "utf-8"));
+export function runValidate(file?: string) {
+  const input = file && file !== "-" ? readFileSync(file, "utf-8") : readFileSync(0, "utf-8");
+  const json = JSON.parse(input);
   const ajv = new Ajv({ allErrors: true });
   const validate = ajv.compile(schema);
   const valid = validate(json);

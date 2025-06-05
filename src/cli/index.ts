@@ -34,16 +34,22 @@ yargs(hideBin(process.argv))
     }
   )
   .command(
-    "validate <file>",
+    "validate [file]",
     "Validate an IR JSON file against the schema",
     (yargs) => {
-      return yargs.positional("file", {
-        describe: "IR JSON file to validate",
-        type: "string",
-      });
+      return yargs
+        .positional("file", {
+          describe: "IR JSON file to validate (defaults to stdin)",
+          type: "string",
+        })
+        .option("in", {
+          alias: "i",
+          type: "string",
+          describe: "Input JSON file to validate",
+        });
     },
     (argv) => {
-      runValidate(argv.file as string);
+      runValidate((argv.in as string) || (argv.file as string | undefined));
     }
   )
   .demandCommand()

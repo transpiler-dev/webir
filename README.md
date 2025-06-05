@@ -29,7 +29,7 @@ bun install
 ## 🚀 Usage
 
 ```bash
-bun run src/index.ts
+bun run index.ts
 ```
 
 This prints the full DOM API IR to the console.
@@ -37,13 +37,18 @@ This prints the full DOM API IR to the console.
 > You can redirect it to a file if desired:
 
 ```bash
-bun run src/index.ts > dom-api-ir.json
+bun run index.ts > dom-api-ir.json
 ```
 
 You can validate any generated IR JSON file:
 
 ```bash
-bun run src/index.ts validate dom-api-ir.json
+bun run index.ts validate -i dom-api-ir.json
+```
+You can also pipe directly from another command:
+
+```bash
+bun run index.ts extract | bun run index.ts validate
 ```
 
 ---
@@ -90,7 +95,7 @@ The repository includes `ir.schema.json` describing the IR structure.
 Validate any IR JSON file using the CLI:
 
 ```bash
-bun run src/index.ts validate dom-api-ir.json
+bun run index.ts validate -i dom-api-ir.json
 ```
 
 ---
@@ -112,7 +117,7 @@ PRs and ideas welcome! To get started:
 
 ```bash
 bun install
-bun run src/index.ts
+bun run index.ts
 ```
 
 Please open issues for bugs, feature requests, or architectural feedback.
