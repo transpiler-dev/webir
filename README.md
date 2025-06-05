@@ -92,15 +92,6 @@ Example:
 }
 ```
 
-## 📑 Schema Validation
-
-The repository includes `ir.schema.json` describing the IR structure.
-Validate any IR JSON file using the CLI:
-
-```bash
-bun run index.ts validate -i dom-api-ir.json
-```
-
 ---
 
 ## 🔮 Roadmap
