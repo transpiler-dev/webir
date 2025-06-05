@@ -29,7 +29,7 @@ bun install
 ## 🚀 Usage
 
 ```bash
-bun run index.ts
+bun extract
 ```
 
 This prints the full DOM API IR to the console.
@@ -37,18 +37,18 @@ This prints the full DOM API IR to the console.
 > You can redirect it to a file if desired:
 
 ```bash
-bun run index.ts > dom-api-ir.json
+bun extract > dom-api-ir.json
 ```
 
 You can validate any generated IR JSON file:
 
 ```bash
-bun run index.ts validate -i dom-api-ir.json
+bun validate -i dom-api-ir.json
 ```
 You can also pipe directly from another command:
 
 ```bash
-bun run index.ts extract | bun run index.ts validate
+bun extract | bun validate
 ```
 
 ---
@@ -57,6 +57,9 @@ bun run index.ts extract | bun run index.ts validate
 
 Each interface maps to an array of entries:
 
+(Schema)[./resources/ir.schema.json]
+
+Example:
 ```json
 {
   "HTMLElement": [
