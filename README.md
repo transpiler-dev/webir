@@ -57,7 +57,7 @@ bun extract | bun validate
 
 Each interface maps to an array of entries:
 
-(Schema)[./resources/ir.schema.json]
+[Schema](./resources/ir.schema.json)
 
 Example:
 ```json
