@@ -1,0 +1,21 @@
+{
+  "name": "webir",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsx": "^4.19.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ts-morph": "^26.0.0",
+    "yargs": "^18.0.0"
+  },
+  "scripts": {
+    "start": "tsx src/cli/index.ts",
+    "extract": "tsx src/cli/index.ts extract",
+    "interfaces": "tsx src/cli/index.ts interfaces"
+  }
+}
