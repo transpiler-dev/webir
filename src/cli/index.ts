@@ -3,6 +3,7 @@ import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import { runExtract } from "./extract";
 import { runListInterfaces } from "./interfaces";
+import { runValidate } from "./validate";
 
 yargs(hideBin(process.argv))
   .command(
@@ -30,6 +31,19 @@ yargs(hideBin(process.argv))
     () => {},
     () => {
       runListInterfaces();
+    }
+  )
+  .command(
+    "validate <file>",
+    "Validate an IR JSON file against the schema",
+    (yargs) => {
+      return yargs.positional("file", {
+        describe: "IR JSON file to validate",
+        type: "string",
+      });
+    },
+    (argv) => {
+      runValidate(argv.file as string);
     }
   )
   .demandCommand()

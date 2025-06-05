@@ -10,6 +10,7 @@
     "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
     "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
     "declaration": true,
     "emitDeclarationOnly": true,
     "outDir": "./dist",

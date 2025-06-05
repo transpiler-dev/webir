@@ -1,6 +1,11 @@
 import { Project, SyntaxKind } from "ts-morph";
 
-export function extractDomApiIR(): string {
+export interface DomApiIR {
+  ir: Record<string, any[]>;
+  interfaceNames: string[];
+}
+
+export function extractDomApiIR(): DomApiIR {
   const project = new Project();
   const sourceFile = project.addSourceFileAtPath(
     "node_modules/typescript/lib/lib.dom.d.ts"

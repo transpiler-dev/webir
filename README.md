@@ -40,6 +40,12 @@ This prints the full DOM API IR to the console.
 bun run src/index.ts > dom-api-ir.json
 ```
 
+You can validate any generated IR JSON file:
+
+```bash
+bun run src/index.ts validate dom-api-ir.json
+```
+
 ---
 
 ## 🛠️ Output Format
@@ -54,7 +60,10 @@ Each interface maps to an array of entries:
       "kind": "method",
       "name": "click",
       "parameters": [],
+      "arity": 0,
+      "required": 0,
       "returnType": "void",
+      "thisType": "HTMLElement",
       "doc": "Simulates a mouse click on an element."
     },
     {
@@ -73,6 +82,15 @@ Each interface maps to an array of entries:
     }
   ]
 }
+```
+
+## 📑 Schema Validation
+
+The repository includes `ir.schema.json` describing the IR structure.
+Validate any IR JSON file using the CLI:
+
+```bash
+bun run src/index.ts validate dom-api-ir.json
 ```
 
 ---
