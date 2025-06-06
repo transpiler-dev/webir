@@ -39,8 +39,6 @@ jobs:
           git add dom-api-ir.json
 
           VERSION=${{ steps.typescript_version.outputs.version }}
-          echo "$VERSION" > .last-typescript-version
-          git add .last-typescript-version
 
           if git diff --cached --quiet; then
             echo "No IR changes to commit"
