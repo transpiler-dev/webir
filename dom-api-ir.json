@@ -98432,5 +98432,1839 @@
       "name": "\"semantics\"",
       "type": "MathMLElement"
     }
-  ]
+  ],
+  "__extends__": {
+    "AddEventListenerOptions": [
+      "EventListenerOptions"
+    ],
+    "AesCbcParams": [
+      "Algorithm"
+    ],
+    "AesCtrParams": [
+      "Algorithm"
+    ],
+    "AesDerivedKeyParams": [
+      "Algorithm"
+    ],
+    "AesGcmParams": [
+      "Algorithm"
+    ],
+    "AesKeyAlgorithm": [
+      "KeyAlgorithm"
+    ],
+    "AesKeyGenParams": [
+      "Algorithm"
+    ],
+    "AnalyserOptions": [
+      "AudioNodeOptions"
+    ],
+    "AnimationEventInit": [
+      "EventInit"
+    ],
+    "AnimationPlaybackEventInit": [
+      "EventInit"
+    ],
+    "AudioProcessingEventInit": [
+      "EventInit"
+    ],
+    "AudioWorkletNodeOptions": [
+      "AudioNodeOptions"
+    ],
+    "BiquadFilterOptions": [
+      "AudioNodeOptions"
+    ],
+    "ChannelMergerOptions": [
+      "AudioNodeOptions"
+    ],
+    "ChannelSplitterOptions": [
+      "AudioNodeOptions"
+    ],
+    "ClipboardEventInit": [
+      "EventInit"
+    ],
+    "CloseEventInit": [
+      "EventInit"
+    ],
+    "CompositionEventInit": [
+      "UIEventInit"
+    ],
+    "ComputedEffectTiming": [
+      "EffectTiming"
+    ],
+    "ConstrainDoubleRange": [
+      "DoubleRange"
+    ],
+    "ConstrainULongRange": [
+      "ULongRange"
+    ],
+    "ContentVisibilityAutoStateChangeEventInit": [
+      "EventInit"
+    ],
+    "ConvolverOptions": [
+      "AudioNodeOptions"
+    ],
+    "CustomEventInit": [
+      "EventInit"
+    ],
+    "DOMMatrixInit": [
+      "DOMMatrix2DInit"
+    ],
+    "DelayOptions": [
+      "AudioNodeOptions"
+    ],
+    "DeviceMotionEventInit": [
+      "EventInit"
+    ],
+    "DeviceOrientationEventInit": [
+      "EventInit"
+    ],
+    "DragEventInit": [
+      "MouseEventInit"
+    ],
+    "DynamicsCompressorOptions": [
+      "AudioNodeOptions"
+    ],
+    "EcKeyAlgorithm": [
+      "KeyAlgorithm"
+    ],
+    "EcKeyGenParams": [
+      "Algorithm"
+    ],
+    "EcKeyImportParams": [
+      "Algorithm"
+    ],
+    "EcdhKeyDeriveParams": [
+      "Algorithm"
+    ],
+    "EcdsaParams": [
+      "Algorithm"
+    ],
+    "ErrorEventInit": [
+      "EventInit"
+    ],
+    "EventModifierInit": [
+      "UIEventInit"
+    ],
+    "FilePropertyBag": [
+      "BlobPropertyBag"
+    ],
+    "FocusEventInit": [
+      "UIEventInit"
+    ],
+    "FontFaceSetLoadEventInit": [
+      "EventInit"
+    ],
+    "FormDataEventInit": [
+      "EventInit"
+    ],
+    "GainOptions": [
+      "AudioNodeOptions"
+    ],
+    "GamepadEventInit": [
+      "EventInit"
+    ],
+    "HashChangeEventInit": [
+      "EventInit"
+    ],
+    "HkdfParams": [
+      "Algorithm"
+    ],
+    "HmacImportParams": [
+      "Algorithm"
+    ],
+    "HmacKeyAlgorithm": [
+      "KeyAlgorithm"
+    ],
+    "HmacKeyGenParams": [
+      "Algorithm"
+    ],
+    "IDBVersionChangeEventInit": [
+      "EventInit"
+    ],
+    "IIRFilterOptions": [
+      "AudioNodeOptions"
+    ],
+    "InputEventInit": [
+      "UIEventInit"
+    ],
+    "KeyboardEventInit": [
+      "EventModifierInit"
+    ],
+    "KeyframeAnimationOptions": [
+      "KeyframeEffectOptions"
+    ],
+    "KeyframeEffectOptions": [
+      "EffectTiming"
+    ],
+    "MIDIConnectionEventInit": [
+      "EventInit"
+    ],
+    "MIDIMessageEventInit": [
+      "EventInit"
+    ],
+    "MediaCapabilitiesDecodingInfo": [
+      "MediaCapabilitiesInfo"
+    ],
+    "MediaCapabilitiesEncodingInfo": [
+      "MediaCapabilitiesInfo"
+    ],
+    "MediaDecodingConfiguration": [
+      "MediaConfiguration"
+    ],
+    "MediaEncodingConfiguration": [
+      "MediaConfiguration"
+    ],
+    "MediaEncryptedEventInit": [
+      "EventInit"
+    ],
+    "MediaKeyMessageEventInit": [
+      "EventInit"
+    ],
+    "MediaQueryListEventInit": [
+      "EventInit"
+    ],
+    "MediaStreamTrackEventInit": [
+      "EventInit"
+    ],
+    "MediaTrackConstraints": [
+      "MediaTrackConstraintSet"
+    ],
+    "MessageEventInit": [
+      "EventInit"
+    ],
+    "MouseEventInit": [
+      "EventModifierInit"
+    ],
+    "MultiCacheQueryOptions": [
+      "CacheQueryOptions"
+    ],
+    "OfflineAudioCompletionEventInit": [
+      "EventInit"
+    ],
+    "OscillatorOptions": [
+      "AudioNodeOptions"
+    ],
+    "PageRevealEventInit": [
+      "EventInit"
+    ],
+    "PageSwapEventInit": [
+      "EventInit"
+    ],
+    "PageTransitionEventInit": [
+      "EventInit"
+    ],
+    "PannerOptions": [
+      "AudioNodeOptions"
+    ],
+    "PaymentDetailsInit": [
+      "PaymentDetailsBase"
+    ],
+    "PaymentDetailsUpdate": [
+      "PaymentDetailsBase"
+    ],
+    "PaymentMethodChangeEventInit": [
+      "PaymentRequestUpdateEventInit"
+    ],
+    "PaymentRequestUpdateEventInit": [
+      "EventInit"
+    ],
+    "Pbkdf2Params": [
+      "Algorithm"
+    ],
+    "PeriodicWaveOptions": [
+      "PeriodicWaveConstraints"
+    ],
+    "PictureInPictureEventInit": [
+      "EventInit"
+    ],
+    "PointerEventInit": [
+      "MouseEventInit"
+    ],
+    "PopStateEventInit": [
+      "EventInit"
+    ],
+    "ProgressEventInit": [
+      "EventInit"
+    ],
+    "PromiseRejectionEventInit": [
+      "EventInit"
+    ],
+    "PublicKeyCredentialRpEntity": [
+      "PublicKeyCredentialEntity"
+    ],
+    "PublicKeyCredentialUserEntity": [
+      "PublicKeyCredentialEntity"
+    ],
+    "RTCAnswerOptions": [
+      "RTCOfferAnswerOptions"
+    ],
+    "RTCDTMFToneChangeEventInit": [
+      "EventInit"
+    ],
+    "RTCDataChannelEventInit": [
+      "EventInit"
+    ],
+    "RTCErrorEventInit": [
+      "EventInit"
+    ],
+    "RTCIceCandidatePairStats": [
+      "RTCStats"
+    ],
+    "RTCInboundRtpStreamStats": [
+      "RTCReceivedRtpStreamStats"
+    ],
+    "RTCOfferOptions": [
+      "RTCOfferAnswerOptions"
+    ],
+    "RTCOutboundRtpStreamStats": [
+      "RTCSentRtpStreamStats"
+    ],
+    "RTCPeerConnectionIceErrorEventInit": [
+      "EventInit"
+    ],
+    "RTCPeerConnectionIceEventInit": [
+      "EventInit"
+    ],
+    "RTCReceivedRtpStreamStats": [
+      "RTCRtpStreamStats"
+    ],
+    "RTCRtpCodecParameters": [
+      "RTCRtpCodec"
+    ],
+    "RTCRtpEncodingParameters": [
+      "RTCRtpCodingParameters"
+    ],
+    "RTCRtpReceiveParameters": [
+      "RTCRtpParameters"
+    ],
+    "RTCRtpSendParameters": [
+      "RTCRtpParameters"
+    ],
+    "RTCRtpStreamStats": [
+      "RTCStats"
+    ],
+    "RTCRtpSynchronizationSource": [
+      "RTCRtpContributingSource"
+    ],
+    "RTCSentRtpStreamStats": [
+      "RTCRtpStreamStats"
+    ],
+    "RTCTrackEventInit": [
+      "EventInit"
+    ],
+    "RTCTransportStats": [
+      "RTCStats"
+    ],
+    "RsaHashedImportParams": [
+      "Algorithm"
+    ],
+    "RsaHashedKeyAlgorithm": [
+      "RsaKeyAlgorithm"
+    ],
+    "RsaHashedKeyGenParams": [
+      "RsaKeyGenParams"
+    ],
+    "RsaKeyAlgorithm": [
+      "KeyAlgorithm"
+    ],
+    "RsaKeyGenParams": [
+      "Algorithm"
+    ],
+    "RsaOaepParams": [
+      "Algorithm"
+    ],
+    "RsaPssParams": [
+      "Algorithm"
+    ],
+    "ScrollIntoViewOptions": [
+      "ScrollOptions"
+    ],
+    "ScrollToOptions": [
+      "ScrollOptions"
+    ],
+    "SecurityPolicyViolationEventInit": [
+      "EventInit"
+    ],
+    "SpeechSynthesisErrorEventInit": [
+      "SpeechSynthesisEventInit"
+    ],
+    "SpeechSynthesisEventInit": [
+      "EventInit"
+    ],
+    "StereoPannerOptions": [
+      "AudioNodeOptions"
+    ],
+    "StorageEventInit": [
+      "EventInit"
+    ],
+    "SubmitEventInit": [
+      "EventInit"
+    ],
+    "ToggleEventInit": [
+      "EventInit"
+    ],
+    "TouchEventInit": [
+      "EventModifierInit"
+    ],
+    "TrackEventInit": [
+      "EventInit"
+    ],
+    "TransitionEventInit": [
+      "EventInit"
+    ],
+    "UIEventInit": [
+      "EventInit"
+    ],
+    "WaveShaperOptions": [
+      "AudioNodeOptions"
+    ],
+    "WebGLContextEventInit": [
+      "EventInit"
+    ],
+    "WheelEventInit": [
+      "MouseEventInit"
+    ],
+    "WindowPostMessageOptions": [
+      "StructuredSerializeOptions"
+    ],
+    "AbortSignal": [
+      "EventTarget"
+    ],
+    "AnalyserNode": [
+      "AudioNode"
+    ],
+    "Animation": [
+      "EventTarget"
+    ],
+    "AnimationEvent": [
+      "Event"
+    ],
+    "AnimationPlaybackEvent": [
+      "Event"
+    ],
+    "Attr": [
+      "Node"
+    ],
+    "AudioBufferSourceNode": [
+      "AudioScheduledSourceNode"
+    ],
+    "AudioContext": [
+      "BaseAudioContext"
+    ],
+    "AudioDecoder": [
+      "EventTarget"
+    ],
+    "AudioDestinationNode": [
+      "AudioNode"
+    ],
+    "AudioEncoder": [
+      "EventTarget"
+    ],
+    "AudioNode": [
+      "EventTarget"
+    ],
+    "AudioProcessingEvent": [
+      "Event"
+    ],
+    "AudioScheduledSourceNode": [
+      "AudioNode"
+    ],
+    "AudioWorklet": [
+      "Worklet"
+    ],
+    "AudioWorkletNode": [
+      "AudioNode"
+    ],
+    "AuthenticatorAssertionResponse": [
+      "AuthenticatorResponse"
+    ],
+    "AuthenticatorAttestationResponse": [
+      "AuthenticatorResponse"
+    ],
+    "BaseAudioContext": [
+      "EventTarget"
+    ],
+    "BeforeUnloadEvent": [
+      "Event"
+    ],
+    "BiquadFilterNode": [
+      "AudioNode"
+    ],
+    "BlobEvent": [
+      "Event"
+    ],
+    "BroadcastChannel": [
+      "EventTarget"
+    ],
+    "ByteLengthQueuingStrategy": [
+      "QueuingStrategy<ArrayBufferView>"
+    ],
+    "CDATASection": [
+      "Text"
+    ],
+    "CSSAnimation": [
+      "Animation"
+    ],
+    "CSSConditionRule": [
+      "CSSGroupingRule"
+    ],
+    "CSSContainerRule": [
+      "CSSConditionRule"
+    ],
+    "CSSCounterStyleRule": [
+      "CSSRule"
+    ],
+    "CSSFontFaceRule": [
+      "CSSRule"
+    ],
+    "CSSFontFeatureValuesRule": [
+      "CSSRule"
+    ],
+    "CSSFontPaletteValuesRule": [
+      "CSSRule"
+    ],
+    "CSSGroupingRule": [
+      "CSSRule"
+    ],
+    "CSSImageValue": [
+      "CSSStyleValue"
+    ],
+    "CSSImportRule": [
+      "CSSRule"
+    ],
+    "CSSKeyframeRule": [
+      "CSSRule"
+    ],
+    "CSSKeyframesRule": [
+      "CSSRule"
+    ],
+    "CSSKeywordValue": [
+      "CSSStyleValue"
+    ],
+    "CSSLayerBlockRule": [
+      "CSSGroupingRule"
+    ],
+    "CSSLayerStatementRule": [
+      "CSSRule"
+    ],
+    "CSSMathClamp": [
+      "CSSMathValue"
+    ],
+    "CSSMathInvert": [
+      "CSSMathValue"
+    ],
+    "CSSMathMax": [
+      "CSSMathValue"
+    ],
+    "CSSMathMin": [
+      "CSSMathValue"
+    ],
+    "CSSMathNegate": [
+      "CSSMathValue"
+    ],
+    "CSSMathProduct": [
+      "CSSMathValue"
+    ],
+    "CSSMathSum": [
+      "CSSMathValue"
+    ],
+    "CSSMathValue": [
+      "CSSNumericValue"
+    ],
+    "CSSMatrixComponent": [
+      "CSSTransformComponent"
+    ],
+    "CSSMediaRule": [
+      "CSSConditionRule"
+    ],
+    "CSSNamespaceRule": [
+      "CSSRule"
+    ],
+    "CSSNestedDeclarations": [
+      "CSSRule"
+    ],
+    "CSSNumericValue": [
+      "CSSStyleValue"
+    ],
+    "CSSPageRule": [
+      "CSSGroupingRule"
+    ],
+    "CSSPerspective": [
+      "CSSTransformComponent"
+    ],
+    "CSSPropertyRule": [
+      "CSSRule"
+    ],
+    "CSSRotate": [
+      "CSSTransformComponent"
+    ],
+    "CSSScale": [
+      "CSSTransformComponent"
+    ],
+    "CSSScopeRule": [
+      "CSSGroupingRule"
+    ],
+    "CSSSkew": [
+      "CSSTransformComponent"
+    ],
+    "CSSSkewX": [
+      "CSSTransformComponent"
+    ],
+    "CSSSkewY": [
+      "CSSTransformComponent"
+    ],
+    "CSSStartingStyleRule": [
+      "CSSGroupingRule"
+    ],
+    "CSSStyleRule": [
+      "CSSGroupingRule"
+    ],
+    "CSSStyleSheet": [
+      "StyleSheet"
+    ],
+    "CSSSupportsRule": [
+      "CSSConditionRule"
+    ],
+    "CSSTransformValue": [
+      "CSSStyleValue"
+    ],
+    "CSSTransition": [
+      "Animation"
+    ],
+    "CSSTranslate": [
+      "CSSTransformComponent"
+    ],
+    "CSSUnitValue": [
+      "CSSNumericValue"
+    ],
+    "CSSUnparsedValue": [
+      "CSSStyleValue"
+    ],
+    "CSSViewTransitionRule": [
+      "CSSRule"
+    ],
+    "CanvasCaptureMediaStreamTrack": [
+      "MediaStreamTrack"
+    ],
+    "CanvasRenderingContext2D": [
+      "CanvasCompositing",
+      "CanvasDrawImage",
+      "CanvasDrawPath",
+      "CanvasFillStrokeStyles",
+      "CanvasFilters",
+      "CanvasImageData",
+      "CanvasImageSmoothing",
+      "CanvasPath",
+      "CanvasPathDrawingStyles",
+      "CanvasRect",
+      "CanvasSettings",
+      "CanvasShadowStyles",
+      "CanvasState",
+      "CanvasText",
+      "CanvasTextDrawingStyles",
+      "CanvasTransform",
+      "CanvasUserInterface"
+    ],
+    "ChannelMergerNode": [
+      "AudioNode"
+    ],
+    "ChannelSplitterNode": [
+      "AudioNode"
+    ],
+    "CharacterData": [
+      "Node",
+      "ChildNode",
+      "NonDocumentTypeChildNode"
+    ],
+    "ChildNode": [
+      "Node"
+    ],
+    "ClientRect": [
+      "DOMRect"
+    ],
+    "Clipboard": [
+      "EventTarget"
+    ],
+    "ClipboardEvent": [
+      "Event"
+    ],
+    "CloseEvent": [
+      "Event"
+    ],
+    "Comment": [
+      "CharacterData"
+    ],
+    "CompositionEvent": [
+      "UIEvent"
+    ],
+    "CompressionStream": [
+      "GenericTransformStream"
+    ],
+    "ConstantSourceNode": [
+      "AudioScheduledSourceNode"
+    ],
+    "ContentVisibilityAutoStateChangeEvent": [
+      "Event"
+    ],
+    "ConvolverNode": [
+      "AudioNode"
+    ],
+    "CountQueuingStrategy": [
+      "QueuingStrategy"
+    ],
+    "CustomEvent": [
+      "Event"
+    ],
+    "DOMException": [
+      "Error"
+    ],
+    "DOMMatrix": [
+      "DOMMatrixReadOnly"
+    ],
+    "DOMPoint": [
+      "DOMPointReadOnly"
+    ],
+    "DOMRect": [
+      "DOMRectReadOnly"
+    ],
+    "DecompressionStream": [
+      "GenericTransformStream"
+    ],
+    "DelayNode": [
+      "AudioNode"
+    ],
+    "DeviceMotionEvent": [
+      "Event"
+    ],
+    "DeviceOrientationEvent": [
+      "Event"
+    ],
+    "DocumentEventMap": [
+      "GlobalEventHandlersEventMap"
+    ],
+    "Document": [
+      "Node",
+      "DocumentOrShadowRoot",
+      "FontFaceSource",
+      "GlobalEventHandlers",
+      "NonElementParentNode",
+      "ParentNode",
+      "XPathEvaluatorBase"
+    ],
+    "DocumentFragment": [
+      "Node",
+      "NonElementParentNode",
+      "ParentNode"
+    ],
+    "DocumentTimeline": [
+      "AnimationTimeline"
+    ],
+    "DocumentType": [
+      "Node",
+      "ChildNode"
+    ],
+    "DragEvent": [
+      "MouseEvent"
+    ],
+    "DynamicsCompressorNode": [
+      "AudioNode"
+    ],
+    "Element": [
+      "Node",
+      "ARIAMixin",
+      "Animatable",
+      "ChildNode",
+      "NonDocumentTypeChildNode",
+      "ParentNode",
+      "Slottable"
+    ],
+    "ElementInternals": [
+      "ARIAMixin"
+    ],
+    "ErrorEvent": [
+      "Event"
+    ],
+    "EventSource": [
+      "EventTarget"
+    ],
+    "File": [
+      "Blob"
+    ],
+    "FileReader": [
+      "EventTarget"
+    ],
+    "FileSystemDirectoryEntry": [
+      "FileSystemEntry"
+    ],
+    "FileSystemDirectoryHandle": [
+      "FileSystemHandle"
+    ],
+    "FileSystemFileEntry": [
+      "FileSystemEntry"
+    ],
+    "FileSystemFileHandle": [
+      "FileSystemHandle"
+    ],
+    "FileSystemWritableFileStream": [
+      "WritableStream"
+    ],
+    "FocusEvent": [
+      "UIEvent"
+    ],
+    "FontFaceSet": [
+      "EventTarget"
+    ],
+    "FontFaceSetLoadEvent": [
+      "Event"
+    ],
+    "FormDataEvent": [
+      "Event"
+    ],
+    "GainNode": [
+      "AudioNode"
+    ],
+    "GamepadEvent": [
+      "Event"
+    ],
+    "HTMLAnchorElement": [
+      "HTMLElement",
+      "HTMLHyperlinkElementUtils"
+    ],
+    "HTMLAreaElement": [
+      "HTMLElement",
+      "HTMLHyperlinkElementUtils"
+    ],
+    "HTMLAudioElement": [
+      "HTMLMediaElement"
+    ],
+    "HTMLBRElement": [
+      "HTMLElement"
+    ],
+    "HTMLBaseElement": [
+      "HTMLElement"
+    ],
+    "HTMLBodyElementEventMap": [
+      "HTMLElementEventMap",
+      "WindowEventHandlersEventMap"
+    ],
+    "HTMLBodyElement": [
+      "HTMLElement",
+      "WindowEventHandlers"
+    ],
+    "HTMLButtonElement": [
+      "HTMLElement",
+      "PopoverInvokerElement"
+    ],
+    "HTMLCanvasElement": [
+      "HTMLElement"
+    ],
+    "HTMLCollection": [
+      "HTMLCollectionBase"
+    ],
+    "HTMLCollectionOf": [
+      "HTMLCollectionBase"
+    ],
+    "HTMLDListElement": [
+      "HTMLElement"
+    ],
+    "HTMLDataElement": [
+      "HTMLElement"
+    ],
+    "HTMLDataListElement": [
+      "HTMLElement"
+    ],
+    "HTMLDetailsElement": [
+      "HTMLElement"
+    ],
+    "HTMLDialogElement": [
+      "HTMLElement"
+    ],
+    "HTMLDirectoryElement": [
+      "HTMLElement"
+    ],
+    "HTMLDivElement": [
+      "HTMLElement"
+    ],
+    "HTMLDocument": [
+      "Document"
+    ],
+    "HTMLElementEventMap": [
+      "ElementEventMap",
+      "GlobalEventHandlersEventMap"
+    ],
+    "HTMLElement": [
+      "Element",
+      "ElementCSSInlineStyle",
+      "ElementContentEditable",
+      "GlobalEventHandlers",
+      "HTMLOrSVGElement"
+    ],
+    "HTMLEmbedElement": [
+      "HTMLElement"
+    ],
+    "HTMLFieldSetElement": [
+      "HTMLElement"
+    ],
+    "HTMLFontElement": [
+      "HTMLElement"
+    ],
+    "HTMLFormControlsCollection": [
+      "HTMLCollectionBase"
+    ],
+    "HTMLFormElement": [
+      "HTMLElement"
+    ],
+    "HTMLFrameElement": [
+      "HTMLElement"
+    ],
+    "HTMLFrameSetElementEventMap": [
+      "HTMLElementEventMap",
+      "WindowEventHandlersEventMap"
+    ],
+    "HTMLFrameSetElement": [
+      "HTMLElement",
+      "WindowEventHandlers"
+    ],
+    "HTMLHRElement": [
+      "HTMLElement"
+    ],
+    "HTMLHeadElement": [
+      "HTMLElement"
+    ],
+    "HTMLHeadingElement": [
+      "HTMLElement"
+    ],
+    "HTMLHtmlElement": [
+      "HTMLElement"
+    ],
+    "HTMLIFrameElement": [
+      "HTMLElement"
+    ],
+    "HTMLImageElement": [
+      "HTMLElement"
+    ],
+    "HTMLInputElement": [
+      "HTMLElement",
+      "PopoverInvokerElement"
+    ],
+    "HTMLLIElement": [
+      "HTMLElement"
+    ],
+    "HTMLLabelElement": [
+      "HTMLElement"
+    ],
+    "HTMLLegendElement": [
+      "HTMLElement"
+    ],
+    "HTMLLinkElement": [
+      "HTMLElement",
+      "LinkStyle"
+    ],
+    "HTMLMapElement": [
+      "HTMLElement"
+    ],
+    "HTMLMarqueeElement": [
+      "HTMLElement"
+    ],
+    "HTMLMediaElementEventMap": [
+      "HTMLElementEventMap"
+    ],
+    "HTMLMediaElement": [
+      "HTMLElement"
+    ],
+    "HTMLMenuElement": [
+      "HTMLElement"
+    ],
+    "HTMLMetaElement": [
+      "HTMLElement"
+    ],
+    "HTMLMeterElement": [
+      "HTMLElement"
+    ],
+    "HTMLModElement": [
+      "HTMLElement"
+    ],
+    "HTMLOListElement": [
+      "HTMLElement"
+    ],
+    "HTMLObjectElement": [
+      "HTMLElement"
+    ],
+    "HTMLOptGroupElement": [
+      "HTMLElement"
+    ],
+    "HTMLOptionElement": [
+      "HTMLElement"
+    ],
+    "HTMLOptionsCollection": [
+      "HTMLCollectionOf<HTMLOptionElement>"
+    ],
+    "HTMLOutputElement": [
+      "HTMLElement"
+    ],
+    "HTMLParagraphElement": [
+      "HTMLElement"
+    ],
+    "HTMLParamElement": [
+      "HTMLElement"
+    ],
+    "HTMLPictureElement": [
+      "HTMLElement"
+    ],
+    "HTMLPreElement": [
+      "HTMLElement"
+    ],
+    "HTMLProgressElement": [
+      "HTMLElement"
+    ],
+    "HTMLQuoteElement": [
+      "HTMLElement"
+    ],
+    "HTMLScriptElement": [
+      "HTMLElement"
+    ],
+    "HTMLSelectElement": [
+      "HTMLElement"
+    ],
+    "HTMLSlotElement": [
+      "HTMLElement"
+    ],
+    "HTMLSourceElement": [
+      "HTMLElement"
+    ],
+    "HTMLSpanElement": [
+      "HTMLElement"
+    ],
+    "HTMLStyleElement": [
+      "HTMLElement",
+      "LinkStyle"
+    ],
+    "HTMLTableCaptionElement": [
+      "HTMLElement"
+    ],
+    "HTMLTableCellElement": [
+      "HTMLElement"
+    ],
+    "HTMLTableColElement": [
+      "HTMLElement"
+    ],
+    "HTMLTableDataCellElement": [
+      "HTMLTableCellElement"
+    ],
+    "HTMLTableElement": [
+      "HTMLElement"
+    ],
+    "HTMLTableHeaderCellElement": [
+      "HTMLTableCellElement"
+    ],
+    "HTMLTableRowElement": [
+      "HTMLElement"
+    ],
+    "HTMLTableSectionElement": [
+      "HTMLElement"
+    ],
+    "HTMLTemplateElement": [
+      "HTMLElement"
+    ],
+    "HTMLTextAreaElement": [
+      "HTMLElement"
+    ],
+    "HTMLTimeElement": [
+      "HTMLElement"
+    ],
+    "HTMLTitleElement": [
+      "HTMLElement"
+    ],
+    "HTMLTrackElement": [
+      "HTMLElement"
+    ],
+    "HTMLUListElement": [
+      "HTMLElement"
+    ],
+    "HTMLUnknownElement": [
+      "HTMLElement"
+    ],
+    "HTMLVideoElementEventMap": [
+      "HTMLMediaElementEventMap"
+    ],
+    "HTMLVideoElement": [
+      "HTMLMediaElement"
+    ],
+    "HashChangeEvent": [
+      "Event"
+    ],
+    "IDBCursorWithValue": [
+      "IDBCursor"
+    ],
+    "IDBDatabase": [
+      "EventTarget"
+    ],
+    "IDBOpenDBRequestEventMap": [
+      "IDBRequestEventMap"
+    ],
+    "IDBOpenDBRequest": [
+      "IDBRequest<IDBDatabase>"
+    ],
+    "IDBRequest": [
+      "EventTarget"
+    ],
+    "IDBTransaction": [
+      "EventTarget"
+    ],
+    "IDBVersionChangeEvent": [
+      "Event"
+    ],
+    "IIRFilterNode": [
+      "AudioNode"
+    ],
+    "InputDeviceInfo": [
+      "MediaDeviceInfo"
+    ],
+    "InputEvent": [
+      "UIEvent"
+    ],
+    "KeyboardEvent": [
+      "UIEvent"
+    ],
+    "KeyframeEffect": [
+      "AnimationEffect"
+    ],
+    "LargestContentfulPaint": [
+      "PerformanceEntry"
+    ],
+    "MIDIAccess": [
+      "EventTarget"
+    ],
+    "MIDIConnectionEvent": [
+      "Event"
+    ],
+    "MIDIInputEventMap": [
+      "MIDIPortEventMap"
+    ],
+    "MIDIInput": [
+      "MIDIPort"
+    ],
+    "MIDIMessageEvent": [
+      "Event"
+    ],
+    "MIDIOutput": [
+      "MIDIPort"
+    ],
+    "MIDIPort": [
+      "EventTarget"
+    ],
+    "MathMLElementEventMap": [
+      "ElementEventMap",
+      "GlobalEventHandlersEventMap"
+    ],
+    "MathMLElement": [
+      "Element",
+      "ElementCSSInlineStyle",
+      "GlobalEventHandlers",
+      "HTMLOrSVGElement"
+    ],
+    "MediaDevices": [
+      "EventTarget"
+    ],
+    "MediaElementAudioSourceNode": [
+      "AudioNode"
+    ],
+    "MediaEncryptedEvent": [
+      "Event"
+    ],
+    "MediaKeyMessageEvent": [
+      "Event"
+    ],
+    "MediaKeySession": [
+      "EventTarget"
+    ],
+    "MediaQueryList": [
+      "EventTarget"
+    ],
+    "MediaQueryListEvent": [
+      "Event"
+    ],
+    "MediaRecorder": [
+      "EventTarget"
+    ],
+    "MediaSource": [
+      "EventTarget"
+    ],
+    "MediaStream": [
+      "EventTarget"
+    ],
+    "MediaStreamAudioDestinationNode": [
+      "AudioNode"
+    ],
+    "MediaStreamAudioSourceNode": [
+      "AudioNode"
+    ],
+    "MediaStreamTrack": [
+      "EventTarget"
+    ],
+    "MediaStreamTrackEvent": [
+      "Event"
+    ],
+    "MessageEvent": [
+      "Event"
+    ],
+    "MessagePortEventMap": [
+      "MessageEventTargetEventMap"
+    ],
+    "MessagePort": [
+      "EventTarget",
+      "MessageEventTarget<MessagePort>"
+    ],
+    "MouseEvent": [
+      "UIEvent"
+    ],
+    "NavigationHistoryEntry": [
+      "EventTarget"
+    ],
+    "Navigator": [
+      "NavigatorAutomationInformation",
+      "NavigatorBadge",
+      "NavigatorConcurrentHardware",
+      "NavigatorContentUtils",
+      "NavigatorCookies",
+      "NavigatorID",
+      "NavigatorLanguage",
+      "NavigatorLocks",
+      "NavigatorOnLine",
+      "NavigatorPlugins",
+      "NavigatorStorage"
+    ],
+    "Node": [
+      "EventTarget"
+    ],
+    "NodeListOf": [
+      "NodeList"
+    ],
+    "Notification": [
+      "EventTarget"
+    ],
+    "OfflineAudioCompletionEvent": [
+      "Event"
+    ],
+    "OfflineAudioContextEventMap": [
+      "BaseAudioContextEventMap"
+    ],
+    "OfflineAudioContext": [
+      "BaseAudioContext"
+    ],
+    "OffscreenCanvas": [
+      "EventTarget"
+    ],
+    "OffscreenCanvasRenderingContext2D": [
+      "CanvasCompositing",
+      "CanvasDrawImage",
+      "CanvasDrawPath",
+      "CanvasFillStrokeStyles",
+      "CanvasFilters",
+      "CanvasImageData",
+      "CanvasImageSmoothing",
+      "CanvasPath",
+      "CanvasPathDrawingStyles",
+      "CanvasRect",
+      "CanvasShadowStyles",
+      "CanvasState",
+      "CanvasText",
+      "CanvasTextDrawingStyles",
+      "CanvasTransform"
+    ],
+    "OscillatorNode": [
+      "AudioScheduledSourceNode"
+    ],
+    "OverconstrainedError": [
+      "DOMException"
+    ],
+    "PageRevealEvent": [
+      "Event"
+    ],
+    "PageSwapEvent": [
+      "Event"
+    ],
+    "PageTransitionEvent": [
+      "Event"
+    ],
+    "PannerNode": [
+      "AudioNode"
+    ],
+    "ParentNode": [
+      "Node"
+    ],
+    "Path2D": [
+      "CanvasPath"
+    ],
+    "PaymentMethodChangeEvent": [
+      "PaymentRequestUpdateEvent"
+    ],
+    "PaymentRequest": [
+      "EventTarget"
+    ],
+    "PaymentRequestUpdateEvent": [
+      "Event"
+    ],
+    "PaymentResponse": [
+      "EventTarget"
+    ],
+    "Performance": [
+      "EventTarget"
+    ],
+    "PerformanceEventTiming": [
+      "PerformanceEntry"
+    ],
+    "PerformanceMark": [
+      "PerformanceEntry"
+    ],
+    "PerformanceMeasure": [
+      "PerformanceEntry"
+    ],
+    "PerformanceNavigationTiming": [
+      "PerformanceResourceTiming"
+    ],
+    "PerformancePaintTiming": [
+      "PerformanceEntry"
+    ],
+    "PerformanceResourceTiming": [
+      "PerformanceEntry"
+    ],
+    "PermissionStatus": [
+      "EventTarget"
+    ],
+    "PictureInPictureEvent": [
+      "Event"
+    ],
+    "PictureInPictureWindow": [
+      "EventTarget"
+    ],
+    "PointerEvent": [
+      "MouseEvent"
+    ],
+    "PopStateEvent": [
+      "Event"
+    ],
+    "ProcessingInstruction": [
+      "CharacterData",
+      "LinkStyle"
+    ],
+    "ProgressEvent": [
+      "Event"
+    ],
+    "PromiseRejectionEvent": [
+      "Event"
+    ],
+    "PublicKeyCredential": [
+      "Credential"
+    ],
+    "RTCDTMFSender": [
+      "EventTarget"
+    ],
+    "RTCDTMFToneChangeEvent": [
+      "Event"
+    ],
+    "RTCDataChannel": [
+      "EventTarget"
+    ],
+    "RTCDataChannelEvent": [
+      "Event"
+    ],
+    "RTCDtlsTransport": [
+      "EventTarget"
+    ],
+    "RTCError": [
+      "DOMException"
+    ],
+    "RTCErrorEvent": [
+      "Event"
+    ],
+    "RTCIceTransport": [
+      "EventTarget"
+    ],
+    "RTCPeerConnection": [
+      "EventTarget"
+    ],
+    "RTCPeerConnectionIceErrorEvent": [
+      "Event"
+    ],
+    "RTCPeerConnectionIceEvent": [
+      "Event"
+    ],
+    "RTCSctpTransport": [
+      "EventTarget"
+    ],
+    "RTCTrackEvent": [
+      "Event"
+    ],
+    "RadioNodeList": [
+      "NodeList"
+    ],
+    "Range": [
+      "AbstractRange"
+    ],
+    "ReadableStreamBYOBReader": [
+      "ReadableStreamGenericReader"
+    ],
+    "ReadableStreamDefaultReader": [
+      "ReadableStreamGenericReader"
+    ],
+    "RemotePlayback": [
+      "EventTarget"
+    ],
+    "Request": [
+      "Body"
+    ],
+    "Response": [
+      "Body"
+    ],
+    "SVGAElement": [
+      "SVGGraphicsElement",
+      "SVGURIReference"
+    ],
+    "SVGAnimateElement": [
+      "SVGAnimationElement"
+    ],
+    "SVGAnimateMotionElement": [
+      "SVGAnimationElement"
+    ],
+    "SVGAnimateTransformElement": [
+      "SVGAnimationElement"
+    ],
+    "SVGAnimationElement": [
+      "SVGElement",
+      "SVGTests"
+    ],
+    "SVGCircleElement": [
+      "SVGGeometryElement"
+    ],
+    "SVGClipPathElement": [
+      "SVGElement"
+    ],
+    "SVGComponentTransferFunctionElement": [
+      "SVGElement"
+    ],
+    "SVGDefsElement": [
+      "SVGGraphicsElement"
+    ],
+    "SVGDescElement": [
+      "SVGElement"
+    ],
+    "SVGElementEventMap": [
+      "ElementEventMap",
+      "GlobalEventHandlersEventMap"
+    ],
+    "SVGElement": [
+      "Element",
+      "ElementCSSInlineStyle",
+      "GlobalEventHandlers",
+      "HTMLOrSVGElement"
+    ],
+    "SVGEllipseElement": [
+      "SVGGeometryElement"
+    ],
+    "SVGFEBlendElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEColorMatrixElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEComponentTransferElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFECompositeElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEConvolveMatrixElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEDiffuseLightingElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEDisplacementMapElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEDistantLightElement": [
+      "SVGElement"
+    ],
+    "SVGFEDropShadowElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEFloodElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEFuncAElement": [
+      "SVGComponentTransferFunctionElement"
+    ],
+    "SVGFEFuncBElement": [
+      "SVGComponentTransferFunctionElement"
+    ],
+    "SVGFEFuncGElement": [
+      "SVGComponentTransferFunctionElement"
+    ],
+    "SVGFEFuncRElement": [
+      "SVGComponentTransferFunctionElement"
+    ],
+    "SVGFEGaussianBlurElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEImageElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes",
+      "SVGURIReference"
+    ],
+    "SVGFEMergeElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEMergeNodeElement": [
+      "SVGElement"
+    ],
+    "SVGFEMorphologyElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEOffsetElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFEPointLightElement": [
+      "SVGElement"
+    ],
+    "SVGFESpecularLightingElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFESpotLightElement": [
+      "SVGElement"
+    ],
+    "SVGFETileElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFETurbulenceElement": [
+      "SVGElement",
+      "SVGFilterPrimitiveStandardAttributes"
+    ],
+    "SVGFilterElement": [
+      "SVGElement",
+      "SVGURIReference"
+    ],
+    "SVGForeignObjectElement": [
+      "SVGGraphicsElement"
+    ],
+    "SVGGElement": [
+      "SVGGraphicsElement"
+    ],
+    "SVGGeometryElement": [
+      "SVGGraphicsElement"
+    ],
+    "SVGGradientElement": [
+      "SVGElement",
+      "SVGURIReference"
+    ],
+    "SVGGraphicsElement": [
+      "SVGElement",
+      "SVGTests"
+    ],
+    "SVGImageElement": [
+      "SVGGraphicsElement",
+      "SVGURIReference"
+    ],
+    "SVGLineElement": [
+      "SVGGeometryElement"
+    ],
+    "SVGLinearGradientElement": [
+      "SVGGradientElement"
+    ],
+    "SVGMPathElement": [
+      "SVGElement",
+      "SVGURIReference"
+    ],
+    "SVGMarkerElement": [
+      "SVGElement",
+      "SVGFitToViewBox"
+    ],
+    "SVGMaskElement": [
+      "SVGElement"
+    ],
+    "SVGMetadataElement": [
+      "SVGElement"
+    ],
+    "SVGPathElement": [
+      "SVGGeometryElement"
+    ],
+    "SVGPatternElement": [
+      "SVGElement",
+      "SVGFitToViewBox",
+      "SVGURIReference"
+    ],
+    "SVGPolygonElement": [
+      "SVGGeometryElement",
+      "SVGAnimatedPoints"
+    ],
+    "SVGPolylineElement": [
+      "SVGGeometryElement",
+      "SVGAnimatedPoints"
+    ],
+    "SVGRadialGradientElement": [
+      "SVGGradientElement"
+    ],
+    "SVGRectElement": [
+      "SVGGeometryElement"
+    ],
+    "SVGSVGElementEventMap": [
+      "SVGElementEventMap",
+      "WindowEventHandlersEventMap"
+    ],
+    "SVGSVGElement": [
+      "SVGGraphicsElement",
+      "SVGFitToViewBox",
+      "WindowEventHandlers"
+    ],
+    "SVGScriptElement": [
+      "SVGElement",
+      "SVGURIReference"
+    ],
+    "SVGSetElement": [
+      "SVGAnimationElement"
+    ],
+    "SVGStopElement": [
+      "SVGElement"
+    ],
+    "SVGStyleElement": [
+      "SVGElement",
+      "LinkStyle"
+    ],
+    "SVGSwitchElement": [
+      "SVGGraphicsElement"
+    ],
+    "SVGSymbolElement": [
+      "SVGElement",
+      "SVGFitToViewBox"
+    ],
+    "SVGTSpanElement": [
+      "SVGTextPositioningElement"
+    ],
+    "SVGTextContentElement": [
+      "SVGGraphicsElement"
+    ],
+    "SVGTextElement": [
+      "SVGTextPositioningElement"
+    ],
+    "SVGTextPathElement": [
+      "SVGTextContentElement",
+      "SVGURIReference"
+    ],
+    "SVGTextPositioningElement": [
+      "SVGTextContentElement"
+    ],
+    "SVGTitleElement": [
+      "SVGElement"
+    ],
+    "SVGUseElement": [
+      "SVGGraphicsElement",
+      "SVGURIReference"
+    ],
+    "SVGViewElement": [
+      "SVGElement",
+      "SVGFitToViewBox"
+    ],
+    "ScreenOrientation": [
+      "EventTarget"
+    ],
+    "ScriptProcessorNode": [
+      "AudioNode"
+    ],
+    "SecurityPolicyViolationEvent": [
+      "Event"
+    ],
+    "ServiceWorkerEventMap": [
+      "AbstractWorkerEventMap"
+    ],
+    "ServiceWorker": [
+      "EventTarget",
+      "AbstractWorker"
+    ],
+    "ServiceWorkerContainer": [
+      "EventTarget"
+    ],
+    "ServiceWorkerRegistration": [
+      "EventTarget"
+    ],
+    "ShadowRoot": [
+      "DocumentFragment",
+      "DocumentOrShadowRoot"
+    ],
+    "SharedWorker": [
+      "EventTarget",
+      "AbstractWorker"
+    ],
+    "SourceBuffer": [
+      "EventTarget"
+    ],
+    "SourceBufferList": [
+      "EventTarget"
+    ],
+    "SpeechSynthesis": [
+      "EventTarget"
+    ],
+    "SpeechSynthesisErrorEvent": [
+      "SpeechSynthesisEvent"
+    ],
+    "SpeechSynthesisEvent": [
+      "Event"
+    ],
+    "SpeechSynthesisUtterance": [
+      "EventTarget"
+    ],
+    "StaticRange": [
+      "AbstractRange"
+    ],
+    "StereoPannerNode": [
+      "AudioNode"
+    ],
+    "StorageEvent": [
+      "Event"
+    ],
+    "StylePropertyMap": [
+      "StylePropertyMapReadOnly"
+    ],
+    "SubmitEvent": [
+      "Event"
+    ],
+    "Text": [
+      "CharacterData",
+      "Slottable"
+    ],
+    "TextDecoder": [
+      "TextDecoderCommon"
+    ],
+    "TextDecoderStream": [
+      "GenericTransformStream",
+      "TextDecoderCommon"
+    ],
+    "TextEncoder": [
+      "TextEncoderCommon"
+    ],
+    "TextEncoderStream": [
+      "GenericTransformStream",
+      "TextEncoderCommon"
+    ],
+    "TextEvent": [
+      "UIEvent"
+    ],
+    "TextTrack": [
+      "EventTarget"
+    ],
+    "TextTrackCue": [
+      "EventTarget"
+    ],
+    "TextTrackList": [
+      "EventTarget"
+    ],
+    "ToggleEvent": [
+      "Event"
+    ],
+    "TouchEvent": [
+      "UIEvent"
+    ],
+    "TrackEvent": [
+      "Event"
+    ],
+    "TransitionEvent": [
+      "Event"
+    ],
+    "UIEvent": [
+      "Event"
+    ],
+    "VTTCue": [
+      "TextTrackCue"
+    ],
+    "VideoDecoder": [
+      "EventTarget"
+    ],
+    "VideoEncoder": [
+      "EventTarget"
+    ],
+    "VisualViewport": [
+      "EventTarget"
+    ],
+    "WakeLockSentinel": [
+      "EventTarget"
+    ],
+    "WaveShaperNode": [
+      "AudioNode"
+    ],
+    "WebGL2RenderingContext": [
+      "WebGL2RenderingContextBase",
+      "WebGL2RenderingContextOverloads",
+      "WebGLRenderingContextBase"
+    ],
+    "WebGLContextEvent": [
+      "Event"
+    ],
+    "WebGLRenderingContext": [
+      "WebGLRenderingContextBase",
+      "WebGLRenderingContextOverloads"
+    ],
+    "WebSocket": [
+      "EventTarget"
+    ],
+    "WebTransportError": [
+      "DOMException"
+    ],
+    "WheelEvent": [
+      "MouseEvent"
+    ],
+    "WindowEventMap": [
+      "GlobalEventHandlersEventMap",
+      "WindowEventHandlersEventMap"
+    ],
+    "Window": [
+      "EventTarget",
+      "AnimationFrameProvider",
+      "GlobalEventHandlers",
+      "WindowEventHandlers",
+      "WindowLocalStorage",
+      "WindowOrWorkerGlobalScope",
+      "WindowSessionStorage"
+    ],
+    "WorkerEventMap": [
+      "AbstractWorkerEventMap",
+      "MessageEventTargetEventMap"
+    ],
+    "Worker": [
+      "EventTarget",
+      "AbstractWorker",
+      "MessageEventTarget<Worker>"
+    ],
+    "XMLDocument": [
+      "Document"
+    ],
+    "XMLHttpRequestEventMap": [
+      "XMLHttpRequestEventTargetEventMap"
+    ],
+    "XMLHttpRequest": [
+      "XMLHttpRequestEventTarget"
+    ],
+    "XMLHttpRequestEventTarget": [
+      "EventTarget"
+    ],
+    "XMLHttpRequestUpload": [
+      "XMLHttpRequestEventTarget"
+    ],
+    "XPathEvaluator": [
+      "XPathEvaluatorBase"
+    ]
+  }
 }
