@@ -51,6 +51,8 @@ You can also pipe directly from another command:
 bun extract | bun validate
 ```
 
+If no file or piped data is provided, `bun validate` exits with an error.
+
 ---
 
 ## 🛠️ Output Format
