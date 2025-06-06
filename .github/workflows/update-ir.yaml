@@ -34,13 +34,13 @@ jobs:
 
       - name: Commit and push IR with tags
         env:
-          GH_PAT: $ {{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          VERSION: ${{ steps.typescript_version.outputs.version }}
         run: |
           git config user.name "IR Bot"
           git config user.email "ir-bot@users.noreply.github.com"
       
           git add dom-api-ir.json
-          VERSION=${{ steps.typescript_version.outputs.version }}
           echo "$VERSION" > .last-typescript-version
           git add .last-typescript-version
       
