@@ -35,7 +35,7 @@ jobs:
       - name: Commit and push IR with tags
         env:
           github_token: ${{ secrets.github_token }}
-          github_repository: $ {{ github.repository }}
+          github_repository: ${{ github.repository }}
           version: ${{ steps.typescript_version.outputs.version }}
         run: |
           git config user.name "github-actions[bot]"
