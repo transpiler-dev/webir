@@ -33,9 +33,6 @@ jobs:
         run: echo "version=$(bun x tsc -v | cut -d ' ' -f2)" >> $GITHUB_OUTPUT
 
       - name: Commit and push IR with tags
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-          REPO_URL: https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
         run: |
           git config user.name "IR Bot"
           git config user.email "ir-bot@users.noreply.github.com"
@@ -52,8 +49,9 @@ jobs:
             git tag -f "typescript-v$VERSION"
             git tag -f latest
       
-            echo "Pushing to: $REPO_URL"
-            git push "$REPO_URL" HEAD:main
-            git push "$REPO_URL" "typescript-v$VERSION" --force
-            git push "$REPO_URL" latest --force
+            echo "Pushing using PAT"
+            git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} HEAD:main
+            git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} "typescript-v$VERSION" --force
+            git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} latest --force
           fi
+
