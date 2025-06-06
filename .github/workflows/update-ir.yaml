@@ -32,16 +32,19 @@ jobs:
         id: typescript_version
         run: echo "version=$(bun x tsc -v | cut -d ' ' -f2)" >> $GITHUB_OUTPUT
 
-      - name: Commit and push IR if changed
+      - name: Commit and push IR with tag
         run: |
           git config user.name "IR Bot"
           git config user.email "ir-bot@users.noreply.github.com"
           git add dom-api-ir.json
+
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No IR changes to commit"
           else
             VERSION=${{ steps.typescript_version.outputs.version }}
+            TAG="typescript-v$VERSION"
             git commit -m "chore: regenerate IR using TypeScript v$VERSION"
-            git tag "typescript-v$VERSION"
-            git push origin main --follow-tags
+            git tag -f "$TAG"
+            git push origin main
+            git push origin "$TAG" --force
           fi
