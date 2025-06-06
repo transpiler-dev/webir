@@ -18,7 +18,19 @@
 
 ## 📦 Installation
 
-### Using Bun
+
+### Using Go
+
+The repository now provides a standalone Go implementation of the CLI. Build it
+with the standard Go toolchain:
+
+```bash
+go build
+```
+
+This produces a `webir` binary that mirrors the original TypeScript commands.
+
+### Using Bun (legacy)
 
 ```bash
 bun install
@@ -28,8 +40,9 @@ bun install
 
 ## 🚀 Usage
 
+
 ```bash
-bun extract
+./webir extract
 ```
 
 This prints the full DOM API IR to the console.
@@ -37,18 +50,18 @@ This prints the full DOM API IR to the console.
 > You can redirect it to a file if desired:
 
 ```bash
-bun extract > dom-api-ir.json
+./webir extract > dom-api-ir.json
 ```
 
 You can validate any generated IR JSON file:
 
 ```bash
-bun validate -i dom-api-ir.json
+./webir validate -i dom-api-ir.json
 ```
 You can also pipe directly from another command:
 
 ```bash
-bun extract | bun validate
+./webir extract | ./webir validate
 ```
 
 ---
