@@ -7,6 +7,8 @@ edition = "2021"
 clap = { version = "4", features = ["derive"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-swc_common = "0.33.19"
-swc_ecma_parser = "0.170.0"
+swc_common = { version = "0.33.19", features = ["sync"] }
+swc_ecma_parser = { version = "0.170.0", features = ["typescript"] }
+swc_ecma_ast = "0.170.0"
+swc_ecma_visit = "0.170.0"
 jsonschema = "0.17"

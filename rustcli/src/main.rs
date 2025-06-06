@@ -3,7 +3,7 @@ use std::path::PathBuf;
 use std::fs;
 use std::collections::BTreeMap;
 use serde::Serialize;
-use swc_common::{SourceMap, FileName, sync::Lrc};
+use swc_common::{SourceMap, sync::Lrc};
 use swc_ecma_parser::{Parser as SwcParser, Syntax, TsConfig, EsConfig, lexer::Lexer, StringInput};
 use swc_ecma_ast::*;
 use swc_ecma_visit::{Visit, VisitWith};
