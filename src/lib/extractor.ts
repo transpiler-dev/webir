@@ -3,6 +3,7 @@ import { Project, SyntaxKind } from "ts-morph";
 export interface DomApiIR {
   ir: Record<string, any[]>;
   interfaceNames: string[];
+  extendsMap: Record<string, string[]>;
 }
 
 export function extractDomApiIR(): DomApiIR {
@@ -12,10 +13,17 @@ export function extractDomApiIR(): DomApiIR {
   );
 
   const result: Record<string, any[]> = {};
+  const extendsMap: Record<string, string[]> = {};
 
   for (const iface of sourceFile.getInterfaces()) {
     const ifaceName = iface.getName();
     const entries: any[] = [];
+
+    // Record interface inheritance
+    const baseTypes = iface.getExtends().map(ext => ext.getText());
+    if (baseTypes.length > 0) {
+      extendsMap[ifaceName] = baseTypes;
+    }
 
     for (const member of iface.getMembers()) {
       if (
@@ -42,7 +50,6 @@ export function extractDomApiIR(): DomApiIR {
 
         // Extract `this` type from signature declaration
         const callSignatures = methodSig?.getType().getCallSignatures() || [];
-
         const thisTypes = callSignatures
           .map(sig => {
             const decl = sig.getDeclaration();
@@ -88,7 +95,7 @@ export function extractDomApiIR(): DomApiIR {
 
   return {
     ir: result,
-    interfaceNames: Object.keys(result)
+    interfaceNames: Object.keys(result),
+    extendsMap
   };
 }
-

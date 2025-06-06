@@ -72,25 +72,27 @@ Example:
       "parameters": [],
       "arity": 0,
       "required": 0,
-      "returnType": "void",
-      "thisType": "HTMLElement",
-      "doc": "Simulates a mouse click on an element."
-    },
-    {
-      "interface": "HTMLElement",
-      "kind": "property",
-      "name": "innerHTML",
-      "type": "string",
-      "doc": "Gets or sets the HTML syntax describing the element's descendants."
-    },
-    {
-      "interface": "HTMLElement",
-      "kind": "event",
-      "name": "onclick",
-      "type": "(this: GlobalEventHandlers, ev: MouseEvent) => any",
-      "doc": "Fired when the element is clicked."
+      "returnType": "void"
     }
-  ]
+  ],
+  "Element": [
+    {
+      "interface": "Element",
+      "kind": "method",
+      "name": "getAttribute",
+      "parameters": [
+        { "name": "name", "type": "string", "optional": false, "rest": false }
+      ],
+      "arity": 1,
+      "required": 1,
+      "returnType": "string"
+    }
+  ],
+  "__extends__": {
+    "HTMLElement": ["Element"],
+    "Element": ["Node"],
+    "Node": ["EventTarget"]
+  }
 }
 ```
 

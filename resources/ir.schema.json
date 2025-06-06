@@ -1,8 +1,20 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
+  "properties": {
+    "__extends__": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-Za-z0-9_]+$": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
   "patternProperties": {
-    "^[A-Za-z0-9_]+$": {
+    "^(?!__extends__)[A-Za-z0-9_]+$": {
       "type": "array",
       "items": { "$ref": "#/$defs/irEntry" }
     }
@@ -59,3 +71,4 @@
     }
   }
 }
+
