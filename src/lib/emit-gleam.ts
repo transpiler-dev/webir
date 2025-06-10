@@ -2,7 +2,10 @@ import fs from "fs";
 import path from "path";
 
 function toSnake(name: string): string {
-  return name.replace(/([a-z0-9])([A-Z])/g, "$1_$2").toLowerCase();
+  return name
+    .replace(/([a-z0-9])([A-Z])/g, "$1_$2")
+    .replace(/([A-Z])([A-Z][a-z])/g, "$1_$2")
+    .toLowerCase();
 }
 
 // Helper: map simple JS types to Gleam types
@@ -48,7 +51,7 @@ function getMergedEntries(
 }
 
 function emitInterfaceModule(name: string, entries: any[], outDir: string) {
-  const snakeCaseName = name.replace(/([a-z0-9])([A-Z])/g, "$1_$2").toLowerCase()
+  const snakeCaseName = toSnake(name);
   const filename = path.join(outDir, "src", `${snakeCaseName}.gleam`);
   const lines: string[] = [
     `// Generated from DOM interface: ${name}`,
@@ -56,12 +59,12 @@ function emitInterfaceModule(name: string, entries: any[], outDir: string) {
     "import webir/js_ref.{JsRef, JsUnknown}",
     "import webir/upcast",
     "",
-    `pub type ${name}`,
+    `pub type ${snakeCaseName}`,
     ""
   ];
 
   for (const entry of entries) {
-    const fnName = entry.name.replace(/([A-Z])/g, "_$1").toLowerCase();
+    const fnName = toSnake(entry.name)
     const doc = entry.doc ? `/// ${entry.doc}` : "";
 
     if (entry.kind === "method") {
@@ -69,22 +72,22 @@ function emitInterfaceModule(name: string, entries: any[], outDir: string) {
         `${p.name}: ${mapType(p.type)}`
       );
       lines.push(doc);
-      lines.push(`@external(js, "${toSnake(name)}.${entry.name}")`);
-      lines.push(`pub fn ${fnName}(el: JsRef(${name})${params.length ? `, ${params.join(", ")}` : ""}) -> ${mapType(entry.returnType)}`);
+      lines.push(`@external(js, "${name}.${entry.name}")`);
+      lines.push(`pub fn ${fnName}(el: JsRef(${snakeCaseName})${params.length ? `, ${params.join(", ")}` : ""}) -> ${mapType(entry.returnType)}`);
       lines.push("");
     }
 
     if (entry.kind === "property") {
       lines.push(doc);
-      lines.push(`@external(js, "${toSnake(name)}.${entry.name}")`);
-      lines.push(`pub fn ${fnName}(el: JsRef(${name})) -> ${mapType(entry.type)}`);
+      lines.push(`@external(js, "${name}.${entry.name}")`);
+      lines.push(`pub fn ${fnName}(el: JsRef(${snakeCaseName})) -> ${mapType(entry.type)}`);
       lines.push("");
     }
 
     if (entry.kind === "event") {
       lines.push(doc);
       lines.push(`/// Registers a '${entry.name}' event`);
-      lines.push(`pub fn ${fnName}(el: JsRef(${name}), cb: JsUnknown) -> Nil {`);
+      lines.push(`pub fn ${fnName}(el: JsRef(${snakeCaseName}), cb: JsUnknown) -> Nil {`);
       lines.push(`  event.add_event_listener(el, "${entry.name}", cb)`);
       lines.push("}");
       lines.push("");
