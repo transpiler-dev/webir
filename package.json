@@ -15,7 +15,8 @@
     "ajv": "^8.0.0"
   },
   "scripts": {
-    "start": "tsx src/cli/index.ts",
+    "clean": "rm -rf bindings/gleam/twig/src",
+    "emit": "tsx src/cli/index.ts emit gleam",
     "extract": "tsx src/cli/index.ts extract",
     "interfaces": "tsx src/cli/index.ts interfaces",
     "validate": "tsx src/cli/index.ts validate"

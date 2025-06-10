@@ -52,6 +52,33 @@ yargs(hideBin(process.argv))
       runValidate((argv.in as string) || (argv.file as string | undefined));
     }
   )
+  .command(
+    "emit <language>",
+    "Emit language bindings",
+    (yargs) =>
+      yargs
+        .positional("language", {
+          describe: "Language to emit (e.g., gleam)",
+          type: "string",
+        })
+        .option("irFile", {
+          type: "string",
+          describe: "Path to an existing IR JSON file",
+        })
+        .option("output", {
+          alias: "o",
+          type: "string",
+          describe: "Output directory for emitted bindings",
+        }),
+    (argv) => {
+      import("./emit").then(({ runEmit }) => {
+        runEmit(argv.language as string, {
+          irFile: argv.irFile as string | undefined,
+          output: argv.output as string | undefined,
+        });
+      });
+    }
+  )
   .demandCommand()
   .help()
   .parse();
