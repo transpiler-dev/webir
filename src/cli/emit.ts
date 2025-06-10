@@ -20,9 +20,10 @@ export async function runEmit(language: string, options: { irFile?: string, outp
     irData = { ...ir, __extends__: extendsMap };
   }
 
-  const isValid = validateIR(irData);
-  if (!isValid) {
+  const { valid, errors } = validateIR(irData);
+  if (!valid) {
     console.error("❌ IR is invalid. Aborting emit.");
+    console.error(errors);
     process.exit(1);
   }
 
