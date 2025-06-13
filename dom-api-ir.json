@@ -8755,7 +8755,7 @@
     {
       "interface": "AbortSignalEventMap",
       "kind": "property",
-      "name": "\"abort\"",
+      "name": "abort",
       "type": "Event"
     }
   ],
@@ -8945,7 +8945,7 @@
     {
       "interface": "AbstractWorkerEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "ErrorEvent"
     }
   ],
@@ -9221,19 +9221,19 @@
     {
       "interface": "AnimationEventMap",
       "kind": "property",
-      "name": "\"cancel\"",
+      "name": "cancel",
       "type": "AnimationPlaybackEvent"
     },
     {
       "interface": "AnimationEventMap",
       "kind": "property",
-      "name": "\"finish\"",
+      "name": "finish",
       "type": "AnimationPlaybackEvent"
     },
     {
       "interface": "AnimationEventMap",
       "kind": "property",
-      "name": "\"remove\"",
+      "name": "remove",
       "type": "AnimationPlaybackEvent"
     }
   ],
@@ -10325,7 +10325,7 @@
     {
       "interface": "AudioDecoderEventMap",
       "kind": "property",
-      "name": "\"dequeue\"",
+      "name": "dequeue",
       "type": "Event"
     }
   ],
@@ -10541,7 +10541,7 @@
     {
       "interface": "AudioEncoderEventMap",
       "kind": "property",
-      "name": "\"dequeue\"",
+      "name": "dequeue",
       "type": "Event"
     }
   ],
@@ -11353,7 +11353,7 @@
     {
       "interface": "AudioScheduledSourceNodeEventMap",
       "kind": "property",
-      "name": "\"ended\"",
+      "name": "ended",
       "type": "Event"
     }
   ],
@@ -11516,7 +11516,7 @@
     {
       "interface": "AudioWorkletNodeEventMap",
       "kind": "property",
-      "name": "\"processorerror\"",
+      "name": "processorerror",
       "type": "ErrorEvent"
     }
   ],
@@ -11749,7 +11749,7 @@
     {
       "interface": "BaseAudioContextEventMap",
       "kind": "property",
-      "name": "\"statechange\"",
+      "name": "statechange",
       "type": "Event"
     }
   ],
@@ -12470,13 +12470,13 @@
     {
       "interface": "BroadcastChannelEventMap",
       "kind": "property",
-      "name": "\"message\"",
+      "name": "message",
       "type": "MessageEvent<any>"
     },
     {
       "interface": "BroadcastChannelEventMap",
       "kind": "property",
-      "name": "\"messageerror\"",
+      "name": "messageerror",
       "type": "MessageEvent<any>"
     }
   ],
@@ -22881,43 +22881,43 @@
     {
       "interface": "DocumentEventMap",
       "kind": "property",
-      "name": "\"DOMContentLoaded\"",
+      "name": "DOMContentLoaded",
       "type": "Event"
     },
     {
       "interface": "DocumentEventMap",
       "kind": "property",
-      "name": "\"fullscreenchange\"",
+      "name": "fullscreenchange",
       "type": "Event"
     },
     {
       "interface": "DocumentEventMap",
       "kind": "property",
-      "name": "\"fullscreenerror\"",
+      "name": "fullscreenerror",
       "type": "Event"
     },
     {
       "interface": "DocumentEventMap",
       "kind": "property",
-      "name": "\"pointerlockchange\"",
+      "name": "pointerlockchange",
       "type": "Event"
     },
     {
       "interface": "DocumentEventMap",
       "kind": "property",
-      "name": "\"pointerlockerror\"",
+      "name": "pointerlockerror",
       "type": "Event"
     },
     {
       "interface": "DocumentEventMap",
       "kind": "property",
-      "name": "\"readystatechange\"",
+      "name": "readystatechange",
       "type": "Event"
     },
     {
       "interface": "DocumentEventMap",
       "kind": "property",
-      "name": "\"visibilitychange\"",
+      "name": "visibilitychange",
       "type": "Event"
     }
   ],
@@ -25888,13 +25888,13 @@
     {
       "interface": "ElementEventMap",
       "kind": "property",
-      "name": "\"fullscreenchange\"",
+      "name": "fullscreenchange",
       "type": "Event"
     },
     {
       "interface": "ElementEventMap",
       "kind": "property",
-      "name": "\"fullscreenerror\"",
+      "name": "fullscreenerror",
       "type": "Event"
     }
   ],
@@ -27670,19 +27670,19 @@
     {
       "interface": "EventSourceEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "Event"
     },
     {
       "interface": "EventSourceEventMap",
       "kind": "property",
-      "name": "\"message\"",
+      "name": "message",
       "type": "MessageEvent<any>"
     },
     {
       "interface": "EventSourceEventMap",
       "kind": "property",
-      "name": "\"open\"",
+      "name": "open",
       "type": "Event"
     }
   ],
@@ -28076,37 +28076,37 @@
     {
       "interface": "FileReaderEventMap",
       "kind": "property",
-      "name": "\"abort\"",
+      "name": "abort",
       "type": "ProgressEvent<FileReader>"
     },
     {
       "interface": "FileReaderEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "ProgressEvent<FileReader>"
     },
     {
       "interface": "FileReaderEventMap",
       "kind": "property",
-      "name": "\"load\"",
+      "name": "load",
       "type": "ProgressEvent<FileReader>"
     },
     {
       "interface": "FileReaderEventMap",
       "kind": "property",
-      "name": "\"loadend\"",
+      "name": "loadend",
       "type": "ProgressEvent<FileReader>"
     },
     {
       "interface": "FileReaderEventMap",
       "kind": "property",
-      "name": "\"loadstart\"",
+      "name": "loadstart",
       "type": "ProgressEvent<FileReader>"
     },
     {
       "interface": "FileReaderEventMap",
       "kind": "property",
-      "name": "\"progress\"",
+      "name": "progress",
       "type": "ProgressEvent<FileReader>"
     }
   ],
@@ -28920,19 +28920,19 @@
     {
       "interface": "FontFaceSetEventMap",
       "kind": "property",
-      "name": "\"loading\"",
+      "name": "loading",
       "type": "FontFaceSetLoadEvent"
     },
     {
       "interface": "FontFaceSetEventMap",
       "kind": "property",
-      "name": "\"loadingdone\"",
+      "name": "loadingdone",
       "type": "FontFaceSetLoadEvent"
     },
     {
       "interface": "FontFaceSetEventMap",
       "kind": "property",
-      "name": "\"loadingerror\"",
+      "name": "loadingerror",
       "type": "FontFaceSetLoadEvent"
     }
   ],
@@ -29779,619 +29779,619 @@
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"abort\"",
+      "name": "abort",
       "type": "UIEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"animationcancel\"",
+      "name": "animationcancel",
       "type": "AnimationEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"animationend\"",
+      "name": "animationend",
       "type": "AnimationEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"animationiteration\"",
+      "name": "animationiteration",
       "type": "AnimationEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"animationstart\"",
+      "name": "animationstart",
       "type": "AnimationEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"auxclick\"",
+      "name": "auxclick",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"beforeinput\"",
+      "name": "beforeinput",
       "type": "InputEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"beforetoggle\"",
+      "name": "beforetoggle",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"blur\"",
+      "name": "blur",
       "type": "FocusEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"cancel\"",
+      "name": "cancel",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"canplay\"",
+      "name": "canplay",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"canplaythrough\"",
+      "name": "canplaythrough",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"change\"",
+      "name": "change",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"click\"",
+      "name": "click",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"close\"",
+      "name": "close",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"compositionend\"",
+      "name": "compositionend",
       "type": "CompositionEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"compositionstart\"",
+      "name": "compositionstart",
       "type": "CompositionEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"compositionupdate\"",
+      "name": "compositionupdate",
       "type": "CompositionEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"contextlost\"",
+      "name": "contextlost",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"contextmenu\"",
+      "name": "contextmenu",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"contextrestored\"",
+      "name": "contextrestored",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"copy\"",
+      "name": "copy",
       "type": "ClipboardEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"cuechange\"",
+      "name": "cuechange",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"cut\"",
+      "name": "cut",
       "type": "ClipboardEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"dblclick\"",
+      "name": "dblclick",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"drag\"",
+      "name": "drag",
       "type": "DragEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"dragend\"",
+      "name": "dragend",
       "type": "DragEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"dragenter\"",
+      "name": "dragenter",
       "type": "DragEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"dragleave\"",
+      "name": "dragleave",
       "type": "DragEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"dragover\"",
+      "name": "dragover",
       "type": "DragEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"dragstart\"",
+      "name": "dragstart",
       "type": "DragEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"drop\"",
+      "name": "drop",
       "type": "DragEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"durationchange\"",
+      "name": "durationchange",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"emptied\"",
+      "name": "emptied",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"ended\"",
+      "name": "ended",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "ErrorEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"focus\"",
+      "name": "focus",
       "type": "FocusEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"focusin\"",
+      "name": "focusin",
       "type": "FocusEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"focusout\"",
+      "name": "focusout",
       "type": "FocusEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"formdata\"",
+      "name": "formdata",
       "type": "FormDataEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"gotpointercapture\"",
+      "name": "gotpointercapture",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"input\"",
+      "name": "input",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"invalid\"",
+      "name": "invalid",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"keydown\"",
+      "name": "keydown",
       "type": "KeyboardEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"keypress\"",
+      "name": "keypress",
       "type": "KeyboardEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"keyup\"",
+      "name": "keyup",
       "type": "KeyboardEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"load\"",
+      "name": "load",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"loadeddata\"",
+      "name": "loadeddata",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"loadedmetadata\"",
+      "name": "loadedmetadata",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"loadstart\"",
+      "name": "loadstart",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"lostpointercapture\"",
+      "name": "lostpointercapture",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"mousedown\"",
+      "name": "mousedown",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"mouseenter\"",
+      "name": "mouseenter",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"mouseleave\"",
+      "name": "mouseleave",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"mousemove\"",
+      "name": "mousemove",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"mouseout\"",
+      "name": "mouseout",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"mouseover\"",
+      "name": "mouseover",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"mouseup\"",
+      "name": "mouseup",
       "type": "MouseEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"paste\"",
+      "name": "paste",
       "type": "ClipboardEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pause\"",
+      "name": "pause",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"play\"",
+      "name": "play",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"playing\"",
+      "name": "playing",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pointercancel\"",
+      "name": "pointercancel",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pointerdown\"",
+      "name": "pointerdown",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pointerenter\"",
+      "name": "pointerenter",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pointerleave\"",
+      "name": "pointerleave",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pointermove\"",
+      "name": "pointermove",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pointerout\"",
+      "name": "pointerout",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pointerover\"",
+      "name": "pointerover",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pointerup\"",
+      "name": "pointerup",
       "type": "PointerEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"progress\"",
+      "name": "progress",
       "type": "ProgressEvent<EventTarget>"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"ratechange\"",
+      "name": "ratechange",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"reset\"",
+      "name": "reset",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"resize\"",
+      "name": "resize",
       "type": "UIEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"scroll\"",
+      "name": "scroll",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"scrollend\"",
+      "name": "scrollend",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"securitypolicyviolation\"",
+      "name": "securitypolicyviolation",
       "type": "SecurityPolicyViolationEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"seeked\"",
+      "name": "seeked",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"seeking\"",
+      "name": "seeking",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"select\"",
+      "name": "select",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"selectionchange\"",
+      "name": "selectionchange",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"selectstart\"",
+      "name": "selectstart",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"slotchange\"",
+      "name": "slotchange",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"stalled\"",
+      "name": "stalled",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"submit\"",
+      "name": "submit",
       "type": "SubmitEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"suspend\"",
+      "name": "suspend",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"timeupdate\"",
+      "name": "timeupdate",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"toggle\"",
+      "name": "toggle",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"touchcancel\"",
+      "name": "touchcancel",
       "type": "TouchEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"touchend\"",
+      "name": "touchend",
       "type": "TouchEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"touchmove\"",
+      "name": "touchmove",
       "type": "TouchEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"touchstart\"",
+      "name": "touchstart",
       "type": "TouchEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"transitioncancel\"",
+      "name": "transitioncancel",
       "type": "TransitionEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"transitionend\"",
+      "name": "transitionend",
       "type": "TransitionEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"transitionrun\"",
+      "name": "transitionrun",
       "type": "TransitionEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"transitionstart\"",
+      "name": "transitionstart",
       "type": "TransitionEvent"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"volumechange\"",
+      "name": "volumechange",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"waiting\"",
+      "name": "waiting",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"webkitanimationend\"",
+      "name": "webkitanimationend",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"webkitanimationiteration\"",
+      "name": "webkitanimationiteration",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"webkitanimationstart\"",
+      "name": "webkitanimationstart",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"webkittransitionend\"",
+      "name": "webkittransitionend",
       "type": "Event"
     },
     {
       "interface": "GlobalEventHandlersEventMap",
       "kind": "property",
-      "name": "\"wheel\"",
+      "name": "wheel",
       "type": "WheelEvent"
     }
   ],
@@ -37888,13 +37888,13 @@
     {
       "interface": "HTMLMediaElementEventMap",
       "kind": "property",
-      "name": "\"encrypted\"",
+      "name": "encrypted",
       "type": "MediaEncryptedEvent"
     },
     {
       "interface": "HTMLMediaElementEventMap",
       "kind": "property",
-      "name": "\"waitingforkey\"",
+      "name": "waitingforkey",
       "type": "Event"
     }
   ],
@@ -44608,13 +44608,13 @@
     {
       "interface": "HTMLVideoElementEventMap",
       "kind": "property",
-      "name": "\"enterpictureinpicture\"",
+      "name": "enterpictureinpicture",
       "type": "PictureInPictureEvent"
     },
     {
       "interface": "HTMLVideoElementEventMap",
       "kind": "property",
-      "name": "\"leavepictureinpicture\"",
+      "name": "leavepictureinpicture",
       "type": "PictureInPictureEvent"
     }
   ],
@@ -45310,25 +45310,25 @@
     {
       "interface": "IDBDatabaseEventMap",
       "kind": "property",
-      "name": "\"abort\"",
+      "name": "abort",
       "type": "Event"
     },
     {
       "interface": "IDBDatabaseEventMap",
       "kind": "property",
-      "name": "\"close\"",
+      "name": "close",
       "type": "Event"
     },
     {
       "interface": "IDBDatabaseEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "Event"
     },
     {
       "interface": "IDBDatabaseEventMap",
       "kind": "property",
-      "name": "\"versionchange\"",
+      "name": "versionchange",
       "type": "IDBVersionChangeEvent"
     }
   ],
@@ -46194,13 +46194,13 @@
     {
       "interface": "IDBOpenDBRequestEventMap",
       "kind": "property",
-      "name": "\"blocked\"",
+      "name": "blocked",
       "type": "IDBVersionChangeEvent"
     },
     {
       "interface": "IDBOpenDBRequestEventMap",
       "kind": "property",
-      "name": "\"upgradeneeded\"",
+      "name": "upgradeneeded",
       "type": "IDBVersionChangeEvent"
     }
   ],
@@ -46336,13 +46336,13 @@
     {
       "interface": "IDBRequestEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "Event"
     },
     {
       "interface": "IDBRequestEventMap",
       "kind": "property",
-      "name": "\"success\"",
+      "name": "success",
       "type": "Event"
     }
   ],
@@ -46513,19 +46513,19 @@
     {
       "interface": "IDBTransactionEventMap",
       "kind": "property",
-      "name": "\"abort\"",
+      "name": "abort",
       "type": "Event"
     },
     {
       "interface": "IDBTransactionEventMap",
       "kind": "property",
-      "name": "\"complete\"",
+      "name": "complete",
       "type": "Event"
     },
     {
       "interface": "IDBTransactionEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "Event"
     }
   ],
@@ -47739,7 +47739,7 @@
     {
       "interface": "MIDIAccessEventMap",
       "kind": "property",
-      "name": "\"statechange\"",
+      "name": "statechange",
       "type": "MIDIConnectionEvent"
     }
   ],
@@ -47898,7 +47898,7 @@
     {
       "interface": "MIDIInputEventMap",
       "kind": "property",
-      "name": "\"midimessage\"",
+      "name": "midimessage",
       "type": "MIDIMessageEvent"
     }
   ],
@@ -48221,7 +48221,7 @@
     {
       "interface": "MIDIPortEventMap",
       "kind": "property",
-      "name": "\"statechange\"",
+      "name": "statechange",
       "type": "MIDIConnectionEvent"
     }
   ],
@@ -48609,7 +48609,7 @@
     {
       "interface": "MediaDevicesEventMap",
       "kind": "property",
-      "name": "\"devicechange\"",
+      "name": "devicechange",
       "type": "Event"
     }
   ],
@@ -48873,13 +48873,13 @@
     {
       "interface": "MediaKeySessionEventMap",
       "kind": "property",
-      "name": "\"keystatuseschange\"",
+      "name": "keystatuseschange",
       "type": "Event"
     },
     {
       "interface": "MediaKeySessionEventMap",
       "kind": "property",
-      "name": "\"message\"",
+      "name": "message",
       "type": "MediaKeyMessageEvent"
     }
   ],
@@ -49373,7 +49373,7 @@
     {
       "interface": "MediaQueryListEventMap",
       "kind": "property",
-      "name": "\"change\"",
+      "name": "change",
       "type": "MediaQueryListEvent"
     }
   ],
@@ -49564,37 +49564,37 @@
     {
       "interface": "MediaRecorderEventMap",
       "kind": "property",
-      "name": "\"dataavailable\"",
+      "name": "dataavailable",
       "type": "BlobEvent"
     },
     {
       "interface": "MediaRecorderEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "ErrorEvent"
     },
     {
       "interface": "MediaRecorderEventMap",
       "kind": "property",
-      "name": "\"pause\"",
+      "name": "pause",
       "type": "Event"
     },
     {
       "interface": "MediaRecorderEventMap",
       "kind": "property",
-      "name": "\"resume\"",
+      "name": "resume",
       "type": "Event"
     },
     {
       "interface": "MediaRecorderEventMap",
       "kind": "property",
-      "name": "\"start\"",
+      "name": "start",
       "type": "Event"
     },
     {
       "interface": "MediaRecorderEventMap",
       "kind": "property",
-      "name": "\"stop\"",
+      "name": "stop",
       "type": "Event"
     }
   ],
@@ -49906,19 +49906,19 @@
     {
       "interface": "MediaSourceEventMap",
       "kind": "property",
-      "name": "\"sourceclose\"",
+      "name": "sourceclose",
       "type": "Event"
     },
     {
       "interface": "MediaSourceEventMap",
       "kind": "property",
-      "name": "\"sourceended\"",
+      "name": "sourceended",
       "type": "Event"
     },
     {
       "interface": "MediaSourceEventMap",
       "kind": "property",
-      "name": "\"sourceopen\"",
+      "name": "sourceopen",
       "type": "Event"
     }
   ],
@@ -50170,13 +50170,13 @@
     {
       "interface": "MediaStreamEventMap",
       "kind": "property",
-      "name": "\"addtrack\"",
+      "name": "addtrack",
       "type": "MediaStreamTrackEvent"
     },
     {
       "interface": "MediaStreamEventMap",
       "kind": "property",
-      "name": "\"removetrack\"",
+      "name": "removetrack",
       "type": "MediaStreamTrackEvent"
     }
   ],
@@ -50435,19 +50435,19 @@
     {
       "interface": "MediaStreamTrackEventMap",
       "kind": "property",
-      "name": "\"ended\"",
+      "name": "ended",
       "type": "Event"
     },
     {
       "interface": "MediaStreamTrackEventMap",
       "kind": "property",
-      "name": "\"mute\"",
+      "name": "mute",
       "type": "Event"
     },
     {
       "interface": "MediaStreamTrackEventMap",
       "kind": "property",
-      "name": "\"unmute\"",
+      "name": "unmute",
       "type": "Event"
     }
   ],
@@ -50826,13 +50826,13 @@
     {
       "interface": "MessageEventTargetEventMap",
       "kind": "property",
-      "name": "\"message\"",
+      "name": "message",
       "type": "MessageEvent<any>"
     },
     {
       "interface": "MessageEventTargetEventMap",
       "kind": "property",
-      "name": "\"messageerror\"",
+      "name": "messageerror",
       "type": "MessageEvent<any>"
     }
   ],
@@ -50968,13 +50968,13 @@
     {
       "interface": "MessagePortEventMap",
       "kind": "property",
-      "name": "\"message\"",
+      "name": "message",
       "type": "MessageEvent<any>"
     },
     {
       "interface": "MessagePortEventMap",
       "kind": "property",
-      "name": "\"messageerror\"",
+      "name": "messageerror",
       "type": "MessageEvent<any>"
     }
   ],
@@ -51770,7 +51770,7 @@
     {
       "interface": "NavigationHistoryEntryEventMap",
       "kind": "property",
-      "name": "\"dispose\"",
+      "name": "dispose",
       "type": "Event"
     }
   ],
@@ -53078,25 +53078,25 @@
     {
       "interface": "NotificationEventMap",
       "kind": "property",
-      "name": "\"click\"",
+      "name": "click",
       "type": "Event"
     },
     {
       "interface": "NotificationEventMap",
       "kind": "property",
-      "name": "\"close\"",
+      "name": "close",
       "type": "Event"
     },
     {
       "interface": "NotificationEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "Event"
     },
     {
       "interface": "NotificationEventMap",
       "kind": "property",
-      "name": "\"show\"",
+      "name": "show",
       "type": "Event"
     }
   ],
@@ -53704,7 +53704,7 @@
     {
       "interface": "OfflineAudioContextEventMap",
       "kind": "property",
-      "name": "\"complete\"",
+      "name": "complete",
       "type": "OfflineAudioCompletionEvent"
     }
   ],
@@ -53877,13 +53877,13 @@
     {
       "interface": "OffscreenCanvasEventMap",
       "kind": "property",
-      "name": "\"contextlost\"",
+      "name": "contextlost",
       "type": "Event"
     },
     {
       "interface": "OffscreenCanvasEventMap",
       "kind": "property",
-      "name": "\"contextrestored\"",
+      "name": "contextrestored",
       "type": "Event"
     }
   ],
@@ -54897,19 +54897,19 @@
     {
       "interface": "PaymentRequestEventMap",
       "kind": "property",
-      "name": "\"paymentmethodchange\"",
+      "name": "paymentmethodchange",
       "type": "PaymentMethodChangeEvent"
     },
     {
       "interface": "PaymentRequestEventMap",
       "kind": "property",
-      "name": "\"shippingaddresschange\"",
+      "name": "shippingaddresschange",
       "type": "PaymentRequestUpdateEvent"
     },
     {
       "interface": "PaymentRequestEventMap",
       "kind": "property",
-      "name": "\"shippingoptionchange\"",
+      "name": "shippingoptionchange",
       "type": "PaymentRequestUpdateEvent"
     }
   ],
@@ -55131,7 +55131,7 @@
     {
       "interface": "PaymentResponseEventMap",
       "kind": "property",
-      "name": "\"payerdetailchange\"",
+      "name": "payerdetailchange",
       "type": "PaymentRequestUpdateEvent"
     }
   ],
@@ -55360,7 +55360,7 @@
     {
       "interface": "PerformanceEventMap",
       "kind": "property",
-      "name": "\"resourcetimingbufferfull\"",
+      "name": "resourcetimingbufferfull",
       "type": "Event"
     }
   ],
@@ -56331,7 +56331,7 @@
     {
       "interface": "PermissionStatusEventMap",
       "kind": "property",
-      "name": "\"change\"",
+      "name": "change",
       "type": "Event"
     }
   ],
@@ -56502,7 +56502,7 @@
     {
       "interface": "PictureInPictureWindowEventMap",
       "kind": "property",
-      "name": "\"resize\"",
+      "name": "resize",
       "type": "Event"
     }
   ],
@@ -57139,7 +57139,7 @@
     {
       "interface": "RTCDTMFSenderEventMap",
       "kind": "property",
-      "name": "\"tonechange\"",
+      "name": "tonechange",
       "type": "RTCDTMFToneChangeEvent"
     }
   ],
@@ -57320,37 +57320,37 @@
     {
       "interface": "RTCDataChannelEventMap",
       "kind": "property",
-      "name": "\"bufferedamountlow\"",
+      "name": "bufferedamountlow",
       "type": "Event"
     },
     {
       "interface": "RTCDataChannelEventMap",
       "kind": "property",
-      "name": "\"close\"",
+      "name": "close",
       "type": "Event"
     },
     {
       "interface": "RTCDataChannelEventMap",
       "kind": "property",
-      "name": "\"closing\"",
+      "name": "closing",
       "type": "Event"
     },
     {
       "interface": "RTCDataChannelEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "RTCErrorEvent"
     },
     {
       "interface": "RTCDataChannelEventMap",
       "kind": "property",
-      "name": "\"message\"",
+      "name": "message",
       "type": "MessageEvent<any>"
     },
     {
       "interface": "RTCDataChannelEventMap",
       "kind": "property",
-      "name": "\"open\"",
+      "name": "open",
       "type": "Event"
     }
   ],
@@ -57675,13 +57675,13 @@
     {
       "interface": "RTCDtlsTransportEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "RTCErrorEvent"
     },
     {
       "interface": "RTCDtlsTransportEventMap",
       "kind": "property",
-      "name": "\"statechange\"",
+      "name": "statechange",
       "type": "Event"
     }
   ],
@@ -58068,19 +58068,19 @@
     {
       "interface": "RTCIceTransportEventMap",
       "kind": "property",
-      "name": "\"gatheringstatechange\"",
+      "name": "gatheringstatechange",
       "type": "Event"
     },
     {
       "interface": "RTCIceTransportEventMap",
       "kind": "property",
-      "name": "\"selectedcandidatepairchange\"",
+      "name": "selectedcandidatepairchange",
       "type": "Event"
     },
     {
       "interface": "RTCIceTransportEventMap",
       "kind": "property",
-      "name": "\"statechange\"",
+      "name": "statechange",
       "type": "Event"
     }
   ],
@@ -58247,55 +58247,55 @@
     {
       "interface": "RTCPeerConnectionEventMap",
       "kind": "property",
-      "name": "\"connectionstatechange\"",
+      "name": "connectionstatechange",
       "type": "Event"
     },
     {
       "interface": "RTCPeerConnectionEventMap",
       "kind": "property",
-      "name": "\"datachannel\"",
+      "name": "datachannel",
       "type": "RTCDataChannelEvent"
     },
     {
       "interface": "RTCPeerConnectionEventMap",
       "kind": "property",
-      "name": "\"icecandidate\"",
+      "name": "icecandidate",
       "type": "RTCPeerConnectionIceEvent"
     },
     {
       "interface": "RTCPeerConnectionEventMap",
       "kind": "property",
-      "name": "\"icecandidateerror\"",
+      "name": "icecandidateerror",
       "type": "RTCPeerConnectionIceErrorEvent"
     },
     {
       "interface": "RTCPeerConnectionEventMap",
       "kind": "property",
-      "name": "\"iceconnectionstatechange\"",
+      "name": "iceconnectionstatechange",
       "type": "Event"
     },
     {
       "interface": "RTCPeerConnectionEventMap",
       "kind": "property",
-      "name": "\"icegatheringstatechange\"",
+      "name": "icegatheringstatechange",
       "type": "Event"
     },
     {
       "interface": "RTCPeerConnectionEventMap",
       "kind": "property",
-      "name": "\"negotiationneeded\"",
+      "name": "negotiationneeded",
       "type": "Event"
     },
     {
       "interface": "RTCPeerConnectionEventMap",
       "kind": "property",
-      "name": "\"signalingstatechange\"",
+      "name": "signalingstatechange",
       "type": "Event"
     },
     {
       "interface": "RTCPeerConnectionEventMap",
       "kind": "property",
-      "name": "\"track\"",
+      "name": "track",
       "type": "RTCTrackEvent"
     }
   ],
@@ -59246,7 +59246,7 @@
     {
       "interface": "RTCSctpTransportEventMap",
       "kind": "property",
-      "name": "\"statechange\"",
+      "name": "statechange",
       "type": "Event"
     }
   ],
@@ -60263,19 +60263,19 @@
     {
       "interface": "RemotePlaybackEventMap",
       "kind": "property",
-      "name": "\"connect\"",
+      "name": "connect",
       "type": "Event"
     },
     {
       "interface": "RemotePlaybackEventMap",
       "kind": "property",
-      "name": "\"connecting\"",
+      "name": "connecting",
       "type": "Event"
     },
     {
       "interface": "RemotePlaybackEventMap",
       "kind": "property",
-      "name": "\"disconnect\"",
+      "name": "disconnect",
       "type": "Event"
     }
   ],
@@ -72863,7 +72863,7 @@
     {
       "interface": "ScreenOrientationEventMap",
       "kind": "property",
-      "name": "\"change\"",
+      "name": "change",
       "type": "Event"
     }
   ],
@@ -73016,7 +73016,7 @@
     {
       "interface": "ScriptProcessorNodeEventMap",
       "kind": "property",
-      "name": "\"audioprocess\"",
+      "name": "audioprocess",
       "type": "AudioProcessingEvent"
     }
   ],
@@ -73577,7 +73577,7 @@
     {
       "interface": "ServiceWorkerEventMap",
       "kind": "property",
-      "name": "\"statechange\"",
+      "name": "statechange",
       "type": "Event"
     }
   ],
@@ -73765,19 +73765,19 @@
     {
       "interface": "ServiceWorkerContainerEventMap",
       "kind": "property",
-      "name": "\"controllerchange\"",
+      "name": "controllerchange",
       "type": "Event"
     },
     {
       "interface": "ServiceWorkerContainerEventMap",
       "kind": "property",
-      "name": "\"message\"",
+      "name": "message",
       "type": "MessageEvent<any>"
     },
     {
       "interface": "ServiceWorkerContainerEventMap",
       "kind": "property",
-      "name": "\"messageerror\"",
+      "name": "messageerror",
       "type": "MessageEvent<any>"
     }
   ],
@@ -73994,7 +73994,7 @@
     {
       "interface": "ServiceWorkerRegistrationEventMap",
       "kind": "property",
-      "name": "\"updatefound\"",
+      "name": "updatefound",
       "type": "Event"
     }
   ],
@@ -74232,7 +74232,7 @@
     {
       "interface": "ShadowRootEventMap",
       "kind": "property",
-      "name": "\"slotchange\"",
+      "name": "slotchange",
       "type": "Event"
     }
   ],
@@ -74574,31 +74574,31 @@
     {
       "interface": "SourceBufferEventMap",
       "kind": "property",
-      "name": "\"abort\"",
+      "name": "abort",
       "type": "Event"
     },
     {
       "interface": "SourceBufferEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "Event"
     },
     {
       "interface": "SourceBufferEventMap",
       "kind": "property",
-      "name": "\"update\"",
+      "name": "update",
       "type": "Event"
     },
     {
       "interface": "SourceBufferEventMap",
       "kind": "property",
-      "name": "\"updateend\"",
+      "name": "updateend",
       "type": "Event"
     },
     {
       "interface": "SourceBufferEventMap",
       "kind": "property",
-      "name": "\"updatestart\"",
+      "name": "updatestart",
       "type": "Event"
     }
   ],
@@ -74859,13 +74859,13 @@
     {
       "interface": "SourceBufferListEventMap",
       "kind": "property",
-      "name": "\"addsourcebuffer\"",
+      "name": "addsourcebuffer",
       "type": "Event"
     },
     {
       "interface": "SourceBufferListEventMap",
       "kind": "property",
-      "name": "\"removesourcebuffer\"",
+      "name": "removesourcebuffer",
       "type": "Event"
     }
   ],
@@ -75081,7 +75081,7 @@
     {
       "interface": "SpeechSynthesisEventMap",
       "kind": "property",
-      "name": "\"voiceschanged\"",
+      "name": "voiceschanged",
       "type": "Event"
     }
   ],
@@ -75334,43 +75334,43 @@
     {
       "interface": "SpeechSynthesisUtteranceEventMap",
       "kind": "property",
-      "name": "\"boundary\"",
+      "name": "boundary",
       "type": "SpeechSynthesisEvent"
     },
     {
       "interface": "SpeechSynthesisUtteranceEventMap",
       "kind": "property",
-      "name": "\"end\"",
+      "name": "end",
       "type": "SpeechSynthesisEvent"
     },
     {
       "interface": "SpeechSynthesisUtteranceEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "SpeechSynthesisErrorEvent"
     },
     {
       "interface": "SpeechSynthesisUtteranceEventMap",
       "kind": "property",
-      "name": "\"mark\"",
+      "name": "mark",
       "type": "SpeechSynthesisEvent"
     },
     {
       "interface": "SpeechSynthesisUtteranceEventMap",
       "kind": "property",
-      "name": "\"pause\"",
+      "name": "pause",
       "type": "SpeechSynthesisEvent"
     },
     {
       "interface": "SpeechSynthesisUtteranceEventMap",
       "kind": "property",
-      "name": "\"resume\"",
+      "name": "resume",
       "type": "SpeechSynthesisEvent"
     },
     {
       "interface": "SpeechSynthesisUtteranceEventMap",
       "kind": "property",
-      "name": "\"start\"",
+      "name": "start",
       "type": "SpeechSynthesisEvent"
     }
   ],
@@ -76972,7 +76972,7 @@
     {
       "interface": "TextTrackEventMap",
       "kind": "property",
-      "name": "\"cuechange\"",
+      "name": "cuechange",
       "type": "Event"
     }
   ],
@@ -77191,13 +77191,13 @@
     {
       "interface": "TextTrackCueEventMap",
       "kind": "property",
-      "name": "\"enter\"",
+      "name": "enter",
       "type": "Event"
     },
     {
       "interface": "TextTrackCueEventMap",
       "kind": "property",
-      "name": "\"exit\"",
+      "name": "exit",
       "type": "Event"
     }
   ],
@@ -77394,19 +77394,19 @@
     {
       "interface": "TextTrackListEventMap",
       "kind": "property",
-      "name": "\"addtrack\"",
+      "name": "addtrack",
       "type": "TrackEvent"
     },
     {
       "interface": "TextTrackListEventMap",
       "kind": "property",
-      "name": "\"change\"",
+      "name": "change",
       "type": "Event"
     },
     {
       "interface": "TextTrackListEventMap",
       "kind": "property",
-      "name": "\"removetrack\"",
+      "name": "removetrack",
       "type": "TrackEvent"
     }
   ],
@@ -78719,7 +78719,7 @@
     {
       "interface": "VideoDecoderEventMap",
       "kind": "property",
-      "name": "\"dequeue\"",
+      "name": "dequeue",
       "type": "Event"
     }
   ],
@@ -78926,7 +78926,7 @@
     {
       "interface": "VideoEncoderEventMap",
       "kind": "property",
-      "name": "\"dequeue\"",
+      "name": "dequeue",
       "type": "Event"
     }
   ],
@@ -79363,13 +79363,13 @@
     {
       "interface": "VisualViewportEventMap",
       "kind": "property",
-      "name": "\"resize\"",
+      "name": "resize",
       "type": "Event"
     },
     {
       "interface": "VisualViewportEventMap",
       "kind": "property",
-      "name": "\"scroll\"",
+      "name": "scroll",
       "type": "Event"
     }
   ],
@@ -80433,7 +80433,7 @@
     {
       "interface": "WakeLockSentinelEventMap",
       "kind": "property",
-      "name": "\"release\"",
+      "name": "release",
       "type": "Event"
     }
   ],
@@ -92904,25 +92904,25 @@
     {
       "interface": "WebSocketEventMap",
       "kind": "property",
-      "name": "\"close\"",
+      "name": "close",
       "type": "CloseEvent"
     },
     {
       "interface": "WebSocketEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "Event"
     },
     {
       "interface": "WebSocketEventMap",
       "kind": "property",
-      "name": "\"message\"",
+      "name": "message",
       "type": "MessageEvent<any>"
     },
     {
       "interface": "WebSocketEventMap",
       "kind": "property",
-      "name": "\"open\"",
+      "name": "open",
       "type": "Event"
     }
   ],
@@ -93397,43 +93397,43 @@
     {
       "interface": "WindowEventMap",
       "kind": "property",
-      "name": "\"DOMContentLoaded\"",
+      "name": "DOMContentLoaded",
       "type": "Event"
     },
     {
       "interface": "WindowEventMap",
       "kind": "property",
-      "name": "\"devicemotion\"",
+      "name": "devicemotion",
       "type": "DeviceMotionEvent"
     },
     {
       "interface": "WindowEventMap",
       "kind": "property",
-      "name": "\"deviceorientation\"",
+      "name": "deviceorientation",
       "type": "DeviceOrientationEvent"
     },
     {
       "interface": "WindowEventMap",
       "kind": "property",
-      "name": "\"deviceorientationabsolute\"",
+      "name": "deviceorientationabsolute",
       "type": "DeviceOrientationEvent"
     },
     {
       "interface": "WindowEventMap",
       "kind": "property",
-      "name": "\"gamepadconnected\"",
+      "name": "gamepadconnected",
       "type": "GamepadEvent"
     },
     {
       "interface": "WindowEventMap",
       "kind": "property",
-      "name": "\"gamepaddisconnected\"",
+      "name": "gamepaddisconnected",
       "type": "GamepadEvent"
     },
     {
       "interface": "WindowEventMap",
       "kind": "property",
-      "name": "\"orientationchange\"",
+      "name": "orientationchange",
       "type": "Event"
     }
   ],
@@ -94367,121 +94367,121 @@
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"afterprint\"",
+      "name": "afterprint",
       "type": "Event"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"beforeprint\"",
+      "name": "beforeprint",
       "type": "Event"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"beforeunload\"",
+      "name": "beforeunload",
       "type": "BeforeUnloadEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"gamepadconnected\"",
+      "name": "gamepadconnected",
       "type": "GamepadEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"gamepaddisconnected\"",
+      "name": "gamepaddisconnected",
       "type": "GamepadEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"hashchange\"",
+      "name": "hashchange",
       "type": "HashChangeEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"languagechange\"",
+      "name": "languagechange",
       "type": "Event"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"message\"",
+      "name": "message",
       "type": "MessageEvent<any>"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"messageerror\"",
+      "name": "messageerror",
       "type": "MessageEvent<any>"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"offline\"",
+      "name": "offline",
+      "type": "Event"
+    },
+    {
+      "interface": "WindowEventHandlersEventMap",
+      "kind": "event",
+      "name": "online",
       "type": "Event"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"online\"",
-      "type": "Event"
-    },
-    {
-      "interface": "WindowEventHandlersEventMap",
-      "kind": "property",
-      "name": "\"pagehide\"",
+      "name": "pagehide",
       "type": "PageTransitionEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pagereveal\"",
+      "name": "pagereveal",
       "type": "Event"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pageshow\"",
+      "name": "pageshow",
       "type": "PageTransitionEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"pageswap\"",
+      "name": "pageswap",
       "type": "Event"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"popstate\"",
+      "name": "popstate",
       "type": "PopStateEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"rejectionhandled\"",
+      "name": "rejectionhandled",
       "type": "PromiseRejectionEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"storage\"",
+      "name": "storage",
       "type": "StorageEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"unhandledrejection\"",
+      "name": "unhandledrejection",
       "type": "PromiseRejectionEvent"
     },
     {
       "interface": "WindowEventHandlersEventMap",
       "kind": "property",
-      "name": "\"unload\"",
+      "name": "unload",
       "type": "Event"
     }
   ],
@@ -95543,7 +95543,7 @@
     {
       "interface": "XMLHttpRequestEventMap",
       "kind": "property",
-      "name": "\"readystatechange\"",
+      "name": "readystatechange",
       "type": "Event"
     }
   ],
@@ -95936,43 +95936,43 @@
     {
       "interface": "XMLHttpRequestEventTargetEventMap",
       "kind": "property",
-      "name": "\"abort\"",
+      "name": "abort",
       "type": "ProgressEvent<XMLHttpRequestEventTarget>"
     },
     {
       "interface": "XMLHttpRequestEventTargetEventMap",
       "kind": "property",
-      "name": "\"error\"",
+      "name": "error",
       "type": "ProgressEvent<XMLHttpRequestEventTarget>"
     },
     {
       "interface": "XMLHttpRequestEventTargetEventMap",
       "kind": "property",
-      "name": "\"load\"",
+      "name": "load",
       "type": "ProgressEvent<XMLHttpRequestEventTarget>"
     },
     {
       "interface": "XMLHttpRequestEventTargetEventMap",
       "kind": "property",
-      "name": "\"loadend\"",
+      "name": "loadend",
       "type": "ProgressEvent<XMLHttpRequestEventTarget>"
     },
     {
       "interface": "XMLHttpRequestEventTargetEventMap",
       "kind": "property",
-      "name": "\"loadstart\"",
+      "name": "loadstart",
       "type": "ProgressEvent<XMLHttpRequestEventTarget>"
     },
     {
       "interface": "XMLHttpRequestEventTargetEventMap",
       "kind": "property",
-      "name": "\"progress\"",
+      "name": "progress",
       "type": "ProgressEvent<XMLHttpRequestEventTarget>"
     },
     {
       "interface": "XMLHttpRequestEventTargetEventMap",
       "kind": "property",
-      "name": "\"timeout\"",
+      "name": "timeout",
       "type": "ProgressEvent<XMLHttpRequestEventTarget>"
     }
   ],
@@ -97025,673 +97025,673 @@
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"a\"",
+      "name": "a",
       "type": "HTMLAnchorElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"abbr\"",
+      "name": "abbr",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"address\"",
+      "name": "address",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"area\"",
+      "name": "area",
       "type": "HTMLAreaElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"article\"",
+      "name": "article",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"aside\"",
+      "name": "aside",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"audio\"",
+      "name": "audio",
       "type": "HTMLAudioElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"b\"",
+      "name": "b",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"base\"",
+      "name": "base",
       "type": "HTMLBaseElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"bdi\"",
+      "name": "bdi",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"bdo\"",
+      "name": "bdo",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"blockquote\"",
+      "name": "blockquote",
       "type": "HTMLQuoteElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"body\"",
+      "name": "body",
       "type": "HTMLBodyElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"br\"",
+      "name": "br",
       "type": "HTMLBRElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"button\"",
+      "name": "button",
       "type": "HTMLButtonElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"canvas\"",
+      "name": "canvas",
       "type": "HTMLCanvasElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"caption\"",
+      "name": "caption",
       "type": "HTMLTableCaptionElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"cite\"",
+      "name": "cite",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"code\"",
+      "name": "code",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"col\"",
+      "name": "col",
       "type": "HTMLTableColElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"colgroup\"",
+      "name": "colgroup",
       "type": "HTMLTableColElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"data\"",
+      "name": "data",
       "type": "HTMLDataElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"datalist\"",
+      "name": "datalist",
       "type": "HTMLDataListElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"dd\"",
+      "name": "dd",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"del\"",
+      "name": "del",
       "type": "HTMLModElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"details\"",
+      "name": "details",
       "type": "HTMLDetailsElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"dfn\"",
+      "name": "dfn",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"dialog\"",
+      "name": "dialog",
       "type": "HTMLDialogElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"div\"",
+      "name": "div",
       "type": "HTMLDivElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"dl\"",
+      "name": "dl",
       "type": "HTMLDListElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"dt\"",
+      "name": "dt",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"em\"",
+      "name": "em",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"embed\"",
+      "name": "embed",
       "type": "HTMLEmbedElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"fieldset\"",
+      "name": "fieldset",
       "type": "HTMLFieldSetElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"figcaption\"",
+      "name": "figcaption",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"figure\"",
+      "name": "figure",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"footer\"",
+      "name": "footer",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"form\"",
+      "name": "form",
       "type": "HTMLFormElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"h1\"",
+      "name": "h1",
       "type": "HTMLHeadingElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"h2\"",
+      "name": "h2",
       "type": "HTMLHeadingElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"h3\"",
+      "name": "h3",
       "type": "HTMLHeadingElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"h4\"",
+      "name": "h4",
       "type": "HTMLHeadingElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"h5\"",
+      "name": "h5",
       "type": "HTMLHeadingElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"h6\"",
+      "name": "h6",
       "type": "HTMLHeadingElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"head\"",
+      "name": "head",
       "type": "HTMLHeadElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"header\"",
+      "name": "header",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"hgroup\"",
+      "name": "hgroup",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"hr\"",
+      "name": "hr",
       "type": "HTMLHRElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"html\"",
+      "name": "html",
       "type": "HTMLHtmlElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"i\"",
+      "name": "i",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"iframe\"",
+      "name": "iframe",
       "type": "HTMLIFrameElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"img\"",
+      "name": "img",
       "type": "HTMLImageElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"input\"",
+      "name": "input",
       "type": "HTMLInputElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"ins\"",
+      "name": "ins",
       "type": "HTMLModElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"kbd\"",
+      "name": "kbd",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"label\"",
+      "name": "label",
       "type": "HTMLLabelElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"legend\"",
+      "name": "legend",
       "type": "HTMLLegendElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"li\"",
+      "name": "li",
       "type": "HTMLLIElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"link\"",
+      "name": "link",
       "type": "HTMLLinkElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"main\"",
+      "name": "main",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"map\"",
+      "name": "map",
       "type": "HTMLMapElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mark\"",
+      "name": "mark",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"menu\"",
+      "name": "menu",
       "type": "HTMLMenuElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"meta\"",
+      "name": "meta",
       "type": "HTMLMetaElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"meter\"",
+      "name": "meter",
       "type": "HTMLMeterElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"nav\"",
+      "name": "nav",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"noscript\"",
+      "name": "noscript",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"object\"",
+      "name": "object",
       "type": "HTMLObjectElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"ol\"",
+      "name": "ol",
       "type": "HTMLOListElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"optgroup\"",
+      "name": "optgroup",
       "type": "HTMLOptGroupElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"option\"",
+      "name": "option",
       "type": "HTMLOptionElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"output\"",
+      "name": "output",
       "type": "HTMLOutputElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"p\"",
+      "name": "p",
       "type": "HTMLParagraphElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"picture\"",
+      "name": "picture",
       "type": "HTMLPictureElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"pre\"",
+      "name": "pre",
       "type": "HTMLPreElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"progress\"",
+      "name": "progress",
       "type": "HTMLProgressElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"q\"",
+      "name": "q",
       "type": "HTMLQuoteElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"rp\"",
+      "name": "rp",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"rt\"",
+      "name": "rt",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"ruby\"",
+      "name": "ruby",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"s\"",
+      "name": "s",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"samp\"",
+      "name": "samp",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"script\"",
+      "name": "script",
       "type": "HTMLScriptElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"search\"",
+      "name": "search",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"section\"",
+      "name": "section",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"select\"",
+      "name": "select",
       "type": "HTMLSelectElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"slot\"",
+      "name": "slot",
       "type": "HTMLSlotElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"small\"",
+      "name": "small",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"source\"",
+      "name": "source",
       "type": "HTMLSourceElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"span\"",
+      "name": "span",
       "type": "HTMLSpanElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"strong\"",
+      "name": "strong",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"style\"",
+      "name": "style",
       "type": "HTMLStyleElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"sub\"",
+      "name": "sub",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"summary\"",
+      "name": "summary",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"sup\"",
+      "name": "sup",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"table\"",
+      "name": "table",
       "type": "HTMLTableElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"tbody\"",
+      "name": "tbody",
       "type": "HTMLTableSectionElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"td\"",
+      "name": "td",
       "type": "HTMLTableCellElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"template\"",
+      "name": "template",
       "type": "HTMLTemplateElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"textarea\"",
+      "name": "textarea",
       "type": "HTMLTextAreaElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"tfoot\"",
+      "name": "tfoot",
       "type": "HTMLTableSectionElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"th\"",
+      "name": "th",
       "type": "HTMLTableCellElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"thead\"",
+      "name": "thead",
       "type": "HTMLTableSectionElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"time\"",
+      "name": "time",
       "type": "HTMLTimeElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"title\"",
+      "name": "title",
       "type": "HTMLTitleElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"tr\"",
+      "name": "tr",
       "type": "HTMLTableRowElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"track\"",
+      "name": "track",
       "type": "HTMLTrackElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"u\"",
+      "name": "u",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"ul\"",
+      "name": "ul",
       "type": "HTMLUListElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"var\"",
+      "name": "var",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"video\"",
+      "name": "video",
       "type": "HTMLVideoElement"
     },
     {
       "interface": "HTMLElementTagNameMap",
       "kind": "property",
-      "name": "\"wbr\"",
+      "name": "wbr",
       "type": "HTMLElement"
     }
   ],
@@ -97699,175 +97699,175 @@
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"acronym\"",
+      "name": "acronym",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"applet\"",
+      "name": "applet",
       "type": "HTMLUnknownElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"basefont\"",
+      "name": "basefont",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"bgsound\"",
+      "name": "bgsound",
       "type": "HTMLUnknownElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"big\"",
+      "name": "big",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"blink\"",
+      "name": "blink",
       "type": "HTMLUnknownElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"center\"",
+      "name": "center",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"dir\"",
+      "name": "dir",
       "type": "HTMLDirectoryElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"font\"",
+      "name": "font",
       "type": "HTMLFontElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"frame\"",
+      "name": "frame",
       "type": "HTMLFrameElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"frameset\"",
+      "name": "frameset",
       "type": "HTMLFrameSetElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"isindex\"",
+      "name": "isindex",
       "type": "HTMLUnknownElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"keygen\"",
+      "name": "keygen",
       "type": "HTMLUnknownElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"listing\"",
+      "name": "listing",
       "type": "HTMLPreElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"marquee\"",
+      "name": "marquee",
       "type": "HTMLMarqueeElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"menuitem\"",
+      "name": "menuitem",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"multicol\"",
+      "name": "multicol",
       "type": "HTMLUnknownElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"nextid\"",
+      "name": "nextid",
       "type": "HTMLUnknownElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"nobr\"",
+      "name": "nobr",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"noembed\"",
+      "name": "noembed",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"noframes\"",
+      "name": "noframes",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"param\"",
+      "name": "param",
       "type": "HTMLParamElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"plaintext\"",
+      "name": "plaintext",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"rb\"",
+      "name": "rb",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"rtc\"",
+      "name": "rtc",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"spacer\"",
+      "name": "spacer",
       "type": "HTMLUnknownElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"strike\"",
+      "name": "strike",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"tt\"",
+      "name": "tt",
       "type": "HTMLElement"
     },
     {
       "interface": "HTMLElementDeprecatedTagNameMap",
       "kind": "property",
-      "name": "\"xmp\"",
+      "name": "xmp",
       "type": "HTMLPreElement"
     }
   ],
@@ -97875,379 +97875,379 @@
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"a\"",
+      "name": "a",
       "type": "SVGAElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"animate\"",
+      "name": "animate",
       "type": "SVGAnimateElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"animateMotion\"",
+      "name": "animateMotion",
       "type": "SVGAnimateMotionElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"animateTransform\"",
+      "name": "animateTransform",
       "type": "SVGAnimateTransformElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"circle\"",
+      "name": "circle",
       "type": "SVGCircleElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"clipPath\"",
+      "name": "clipPath",
       "type": "SVGClipPathElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"defs\"",
+      "name": "defs",
       "type": "SVGDefsElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"desc\"",
+      "name": "desc",
       "type": "SVGDescElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"ellipse\"",
+      "name": "ellipse",
       "type": "SVGEllipseElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feBlend\"",
+      "name": "feBlend",
       "type": "SVGFEBlendElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feColorMatrix\"",
+      "name": "feColorMatrix",
       "type": "SVGFEColorMatrixElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feComponentTransfer\"",
+      "name": "feComponentTransfer",
       "type": "SVGFEComponentTransferElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feComposite\"",
+      "name": "feComposite",
       "type": "SVGFECompositeElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feConvolveMatrix\"",
+      "name": "feConvolveMatrix",
       "type": "SVGFEConvolveMatrixElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feDiffuseLighting\"",
+      "name": "feDiffuseLighting",
       "type": "SVGFEDiffuseLightingElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feDisplacementMap\"",
+      "name": "feDisplacementMap",
       "type": "SVGFEDisplacementMapElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feDistantLight\"",
+      "name": "feDistantLight",
       "type": "SVGFEDistantLightElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feDropShadow\"",
+      "name": "feDropShadow",
       "type": "SVGFEDropShadowElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feFlood\"",
+      "name": "feFlood",
       "type": "SVGFEFloodElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feFuncA\"",
+      "name": "feFuncA",
       "type": "SVGFEFuncAElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feFuncB\"",
+      "name": "feFuncB",
       "type": "SVGFEFuncBElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feFuncG\"",
+      "name": "feFuncG",
       "type": "SVGFEFuncGElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feFuncR\"",
+      "name": "feFuncR",
       "type": "SVGFEFuncRElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feGaussianBlur\"",
+      "name": "feGaussianBlur",
       "type": "SVGFEGaussianBlurElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feImage\"",
+      "name": "feImage",
       "type": "SVGFEImageElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feMerge\"",
+      "name": "feMerge",
       "type": "SVGFEMergeElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feMergeNode\"",
+      "name": "feMergeNode",
       "type": "SVGFEMergeNodeElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feMorphology\"",
+      "name": "feMorphology",
       "type": "SVGFEMorphologyElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feOffset\"",
+      "name": "feOffset",
       "type": "SVGFEOffsetElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"fePointLight\"",
+      "name": "fePointLight",
       "type": "SVGFEPointLightElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feSpecularLighting\"",
+      "name": "feSpecularLighting",
       "type": "SVGFESpecularLightingElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feSpotLight\"",
+      "name": "feSpotLight",
       "type": "SVGFESpotLightElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feTile\"",
+      "name": "feTile",
       "type": "SVGFETileElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"feTurbulence\"",
+      "name": "feTurbulence",
       "type": "SVGFETurbulenceElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"filter\"",
+      "name": "filter",
       "type": "SVGFilterElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"foreignObject\"",
+      "name": "foreignObject",
       "type": "SVGForeignObjectElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"g\"",
+      "name": "g",
       "type": "SVGGElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"image\"",
+      "name": "image",
       "type": "SVGImageElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"line\"",
+      "name": "line",
       "type": "SVGLineElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"linearGradient\"",
+      "name": "linearGradient",
       "type": "SVGLinearGradientElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"marker\"",
+      "name": "marker",
       "type": "SVGMarkerElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"mask\"",
+      "name": "mask",
       "type": "SVGMaskElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"metadata\"",
+      "name": "metadata",
       "type": "SVGMetadataElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"mpath\"",
+      "name": "mpath",
       "type": "SVGMPathElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"path\"",
+      "name": "path",
       "type": "SVGPathElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"pattern\"",
+      "name": "pattern",
       "type": "SVGPatternElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"polygon\"",
+      "name": "polygon",
       "type": "SVGPolygonElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"polyline\"",
+      "name": "polyline",
       "type": "SVGPolylineElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"radialGradient\"",
+      "name": "radialGradient",
       "type": "SVGRadialGradientElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"rect\"",
+      "name": "rect",
       "type": "SVGRectElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"script\"",
+      "name": "script",
       "type": "SVGScriptElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"set\"",
+      "name": "set",
       "type": "SVGSetElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"stop\"",
+      "name": "stop",
       "type": "SVGStopElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"style\"",
+      "name": "style",
       "type": "SVGStyleElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"svg\"",
+      "name": "svg",
       "type": "SVGSVGElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"switch\"",
+      "name": "switch",
       "type": "SVGSwitchElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"symbol\"",
+      "name": "symbol",
       "type": "SVGSymbolElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"text\"",
+      "name": "text",
       "type": "SVGTextElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"textPath\"",
+      "name": "textPath",
       "type": "SVGTextPathElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"title\"",
+      "name": "title",
       "type": "SVGTitleElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"tspan\"",
+      "name": "tspan",
       "type": "SVGTSpanElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"use\"",
+      "name": "use",
       "type": "SVGUseElement"
     },
     {
       "interface": "SVGElementTagNameMap",
       "kind": "property",
-      "name": "\"view\"",
+      "name": "view",
       "type": "SVGViewElement"
     }
   ],
@@ -98255,181 +98255,181 @@
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"annotation\"",
+      "name": "annotation",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"annotation-xml\"",
+      "name": "annotation-xml",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"maction\"",
+      "name": "maction",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"math\"",
+      "name": "math",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"merror\"",
+      "name": "merror",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mfrac\"",
+      "name": "mfrac",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mi\"",
+      "name": "mi",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mmultiscripts\"",
+      "name": "mmultiscripts",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mn\"",
+      "name": "mn",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mo\"",
+      "name": "mo",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mover\"",
+      "name": "mover",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mpadded\"",
+      "name": "mpadded",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mphantom\"",
+      "name": "mphantom",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mprescripts\"",
+      "name": "mprescripts",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mroot\"",
+      "name": "mroot",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mrow\"",
+      "name": "mrow",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"ms\"",
+      "name": "ms",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mspace\"",
+      "name": "mspace",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"msqrt\"",
+      "name": "msqrt",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mstyle\"",
+      "name": "mstyle",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"msub\"",
+      "name": "msub",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"msubsup\"",
+      "name": "msubsup",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"msup\"",
+      "name": "msup",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mtable\"",
+      "name": "mtable",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mtd\"",
+      "name": "mtd",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mtext\"",
+      "name": "mtext",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"mtr\"",
+      "name": "mtr",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"munder\"",
+      "name": "munder",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"munderover\"",
+      "name": "munderover",
       "type": "MathMLElement"
     },
     {
       "interface": "MathMLElementTagNameMap",
       "kind": "property",
-      "name": "\"semantics\"",
+      "name": "semantics",
       "type": "MathMLElement"
     }
   ],
