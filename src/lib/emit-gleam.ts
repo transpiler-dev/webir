@@ -80,14 +80,14 @@ function emitInterfaceModule(name: string, entries: any[], outDir: string) {
         `${p.name}: ${mapType(p.type)}`
       );
       lines.push(doc);
-      lines.push(`@external(javascript, "${name}.${entry.name}")`);
+      lines.push(`@external(javascript, "${name}.${entry.name}", "${fnName}")`);
       lines.push(`pub fn ${fnName}(el: JsRef(${snakeCaseName})${params.length ? `, ${params.join(", ")}` : ""}) -> ${mapType(entry.returnType)}`);
       lines.push("");
     }
 
     if (entry.kind === "property") {
       lines.push(doc);
-      lines.push(`@external(javascript, "${name}.${entry.name}")`);
+      lines.push(`@external(javascript, "${name}.${entry.name}", "${fnName}")`);
       lines.push(`pub fn ${fnName}(el: JsRef(${snakeCaseName})) -> ${mapType(entry.type)}`);
       lines.push("");
     }
