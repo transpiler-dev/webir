@@ -23,6 +23,12 @@ function toPascalCase(name: string): string {
     .join('');
 }
 
+function formatDoc(doc?: string): string[] {
+  if (!doc) return [];
+
+  return doc.split(/\r?\n/).map(line => `/// ${line.trim()}`);
+}
+
 // Helper: map simple JS types to Gleam types
 function mapType(jsType: string): string {
   switch (jsType) {
@@ -81,13 +87,13 @@ function emitInterfaceModule(name: string, entries: any[], outDir: string) {
 
   for (const entry of entries) {
     const fnName = toSnake(entry.name)
-    const doc = entry.doc ? `/// ${entry.doc}` : "";
+    const docLines = formatDoc(entry.doc);
 
     if (entry.kind === "method") {
       const params = (entry.parameters ?? []).map((p: any) =>
         `${sanitizeName(p.name)}: ${mapType(p.type)}`
       );
-      lines.push(doc);
+      lines.push(...docLines);
       lines.push(`@external(javascript, "${name}.${entry.name}", "${fnName}")`);
       lines.push(`pub fn ${fnName}(el: JsRef(${snakeCaseName})${params.length ? `, ${params.join(", ")}` : ""}) -> ${mapType(entry.returnType)}`);
       lines.push("");
