@@ -181,6 +181,20 @@ function emitFlatTwigModule(ir: Record<string, any[]>, outDir: string) {
   console.log(`✅ Emitted: ${pathOut}`);
 }
 
+function emitGleamToml(templatePath: string, outDir: string) {
+  const targetPath = path.join(outDir, "gleam.toml");
+  const contents = fs.readFileSync(templatePath, "utf-8");
+  fs.writeFileSync(targetPath, contents, "utf-8");
+  console.log(`✅ Emitted: ${targetPath}`);
+}
+
+function emitGleamToolVersions(templatePath: string, outDir: string) {
+  const targetPath = path.join(outDir, ".tool-versions");
+  const contents = fs.readFileSync(templatePath, "utf-8");
+  fs.writeFileSync(targetPath, contents, "utf-8");
+  console.log(`✅ Emitted: ${targetPath}`);
+}
+
 export function emitGleamBindings(ir: Record<string, any[]>, outDir: string) {
   const extendsMap = ir.__extends__ ?? {};
 
@@ -192,5 +206,8 @@ export function emitGleamBindings(ir: Record<string, any[]>, outDir: string) {
 
   emitUpcasts(ir, extendsMap, outDir);
   emitFlatTwigModule(ir, outDir);
+
+  emitGleamToml(path.resolve("resources/gleam.toml.template"), outDir);
+  emitGleamToolVersions(path.resolve("resources/gleam-tool-versions"), outDir);
 }
 

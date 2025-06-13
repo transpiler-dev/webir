@@ -26,25 +26,11 @@ jobs:
       - name: Emit Gleam bindings
         run: bun run emit
 
-      - name: Create gleam.toml
-        run: |
-          cat <<'TOML' > bindings/gleam/twig/gleam.toml
-          name = "twig"
-          version = "0.1.0"
-          description = "DOM bindings generated from WebIR"
-          licences = ["EPL-2.0"]
-          repository = "https://github.com/transpiler-dev/webir"
-          target = "javascript"
-
-          [dependencies]
-          gleam_stdlib = "~> 0.33"
-          TOML
-
       - name: Set up Gleam
         uses: erlef/setup-beam@v1
         with:
           otp-version: false
-          gleam-version: '1.9.0'
+          gleam-version: '1.10.0'
 
       - name: Format and build package
         run: |

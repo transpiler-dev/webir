@@ -1,0 +1,14 @@
+name = "twig"
+version = "0.1.0"
+description = "DOM bindings generated from WebIR"
+licences = ["EPL-2.0"]
+target = "javascript"
+
+[repository]
+type = "github"
+user = "transpiler-dev"
+repo = "webir"
+
+[dependencies]
+gleam_stdlib = "~> 0.33"
+
