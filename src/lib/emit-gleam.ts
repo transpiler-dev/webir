@@ -5,7 +5,7 @@ const reservedWords = new Set([
   "type", "fn", "let", "case", "if", "else", "try", "as", "import", "pub", "use", "external",
 ]);
 
-function sanitizeName(name: string): string {
+function removeReservedWords(name: string): string {
   return reservedWords.has(name) ? `${name}_` : name;
 }
 
@@ -91,25 +91,25 @@ function emitInterfaceModule(name: string, entries: any[], outDir: string) {
 
     if (entry.kind === "method") {
       const params = (entry.parameters ?? []).map((p: any) =>
-        `${sanitizeName(p.name)}: ${mapType(p.type)}`
+        `${removeReservedWords(p.name)}: ${mapType(p.type)}`
       );
       lines.push(...docLines);
       lines.push(`@external(javascript, "${name}.${entry.name}", "${fnName}")`);
-      lines.push(`pub fn ${sanitizeName(fnName)}(el: JsRef(${snakeCaseName})${params.length ? `, ${params.join(", ")}` : ""}) -> ${mapType(entry.returnType)}`);
+      lines.push(`pub fn ${removeReservedWords(fnName)}(el: JsRef(${snakeCaseName})${params.length ? `, ${params.join(", ")}` : ""}) -> ${mapType(entry.returnType)}`);
       lines.push("");
     }
 
     if (entry.kind === "property") {
       lines.push(docLines);
       lines.push(`@external(javascript, "${name}.${entry.name}", "${fnName}")`);
-      lines.push(`pub fn ${sanitizeName(fnName)}(el: JsRef(${snakeCaseName})) -> ${mapType(entry.type)}`);
+      lines.push(`pub fn ${removeReservedWords(fnName)}(el: JsRef(${snakeCaseName})) -> ${mapType(entry.type)}`);
       lines.push("");
     }
 
     if (entry.kind === "event") {
       lines.push(docLines);
       lines.push(`/// Registers a '${entry.name}' event`);
-      lines.push(`pub fn ${sanitizeName(fnName)}(el: JsRef(${snakeCaseName}), cb: JsUnknown) -> Nil {`);
+      lines.push(`pub fn ${removeReservedWords(fnName)}(el: JsRef(${snakeCaseName}), cb: JsUnknown) -> Nil {`);
       lines.push(`  event.add_event_listener(el, "${entry.name}", cb)`);
       lines.push("}");
       lines.push("");
@@ -126,7 +126,7 @@ function emitUpcasts(ir: Record<string, any[]>, extendsMap: Record<string, strin
   for (const subtype of Object.keys(ir)) {
     for (const supertype of getAllAncestors(subtype, extendsMap)) {
       const name = `as_${supertype.toLowerCase()}`;
-      upcasts.push(`pub fn ${sanitizeName(name)}(el: JsRef(${subtype})) -> JsRef(${supertype}) {`);
+      upcasts.push(`pub fn ${removeReservedWords(name)}(el: JsRef(${subtype})) -> JsRef(${supertype}) {`);
       upcasts.push("  JsRef(el.0)");
       upcasts.push("}");
       upcasts.push("");

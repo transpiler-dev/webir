@@ -31,7 +31,13 @@ export function extractDomApiIR(): DomApiIR {
         member.getKind() !== SyntaxKind.PropertySignature
       ) continue;
 
-      const name = (member as any).getName?.();
+      let name: string | undefined;
+      const sym = member.getSymbol();
+      if (sym) {
+        name = sym.getEscapedName() as string;
+      } else {
+        name = (member as any).getName?.();
+      }
       const jsDoc = member.getJsDocs().map(doc => doc.getComment()).filter(Boolean).join("\n");
 
       if (member.getKind() === SyntaxKind.MethodSignature) {
