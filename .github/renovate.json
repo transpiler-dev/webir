@@ -1,11 +1,16 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^typescript$"],
       "groupName": "typescript updates",
-      "schedule": ["after 1am and before 5am on monday"]
+      "schedule": [
+        "after 1am and before 5am on monday"
+      ],
+      "matchPackageNames": [
+        "/^typescript$/"
+      ]
     }
   ]
 }
-
