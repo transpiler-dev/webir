@@ -157,7 +157,7 @@ function emitFlatTwigModule(ir: Record<string, any[]>, outDir: string) {
     if (exports.length === 0) continue;
 
     uses.push(`pub use ${moduleName}.{`);
-    uses.push("  " + exports.join("\n  "));
+    uses.push("  " + exports.join(",\n  "));
     uses.push("}");
     uses.push("");
   }
