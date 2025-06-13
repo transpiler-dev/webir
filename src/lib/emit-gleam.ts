@@ -1,9 +1,14 @@
 import fs from "fs";
 import path from "path";
 
-const reservedWords = new Set([
-  "type", "fn", "let", "case", "if", "else", "try", "as", "import", "pub", "use", "external",
-]);
+
+const reservedWordsPath = "resources/gleam-reserved-words.txt"
+const reservedWords = new Set(
+  fs.readFileSync(reservedWordsPath, "utf-8")
+    .split(/\r?\n/)
+    .map(word => word.trim())
+    .filter(Boolean)
+);
 
 function removeReservedWords(name: string): string {
   return reservedWords.has(name) ? `${name}_` : name;
@@ -118,7 +123,7 @@ function emitInterfaceModule(name: string, entries: any[], outDir: string) {
 
   fs.mkdirSync(path.dirname(filename), { recursive: true });
   fs.writeFileSync(filename, lines.join("\n"), "utf-8");
-  console.log(`✅ Emitted: ${filename}`);
+  // console.log(`✅ Emitted: ${filename}`);
 }
 
 function emitUpcasts(ir: Record<string, any[]>, extendsMap: Record<string, string[]>, outDir: string) {
@@ -136,7 +141,7 @@ function emitUpcasts(ir: Record<string, any[]>, extendsMap: Record<string, strin
   const pathOut = path.join(outDir, "src", "upcast.gleam");
   fs.mkdirSync(path.dirname(pathOut), { recursive: true });
   fs.writeFileSync(pathOut, upcasts.join("\n"), "utf-8");
-  console.log(`✅ Emitted: ${pathOut}`);
+  // console.log(`✅ Emitted: ${pathOut}`);
 }
 
 function emitFlatTwigModule(ir: Record<string, any[]>, outDir: string) {
@@ -178,21 +183,21 @@ function emitFlatTwigModule(ir: Record<string, any[]>, outDir: string) {
   const pathOut = path.join(outDir, "src", "twig.gleam");
   fs.mkdirSync(path.dirname(pathOut), { recursive: true });
   fs.writeFileSync(pathOut, uses.join("\n"), "utf-8");
-  console.log(`✅ Emitted: ${pathOut}`);
+  // console.log(`✅ Emitted: ${pathOut}`);
 }
 
 function emitGleamToml(templatePath: string, outDir: string) {
   const targetPath = path.join(outDir, "gleam.toml");
   const contents = fs.readFileSync(templatePath, "utf-8");
   fs.writeFileSync(targetPath, contents, "utf-8");
-  console.log(`✅ Emitted: ${targetPath}`);
+  // console.log(`✅ Emitted: ${targetPath}`);
 }
 
 function emitGleamToolVersions(templatePath: string, outDir: string) {
   const targetPath = path.join(outDir, ".tool-versions");
   const contents = fs.readFileSync(templatePath, "utf-8");
   fs.writeFileSync(targetPath, contents, "utf-8");
-  console.log(`✅ Emitted: ${targetPath}`);
+  // console.log(`✅ Emitted: ${targetPath}`);
 }
 
 export function emitGleamBindings(ir: Record<string, any[]>, outDir: string) {

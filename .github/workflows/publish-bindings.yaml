@@ -24,7 +24,7 @@ jobs:
         run: bun install
 
       - name: Emit Gleam bindings
-        run: bun run emit
+        run: bun emit gleam
 
       - name: Set up Gleam
         uses: erlef/setup-beam@v1
