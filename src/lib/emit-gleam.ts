@@ -6,7 +6,7 @@ const reservedWords = new Set([
 ]);
 
 function sanitizeName(name: string): string {
-  return reservedwords.has(name) ? `${name}_` : name;
+  return reservedWords.has(name) ? `${name}_` : name;
 }
 
 function toSnake(name: string): string {
