@@ -100,14 +100,14 @@ function emitInterfaceModule(name: string, entries: any[], outDir: string) {
     }
 
     if (entry.kind === "property") {
-      lines.push(doc);
+      lines.push(docLines);
       lines.push(`@external(javascript, "${name}.${entry.name}", "${fnName}")`);
       lines.push(`pub fn ${fnName}(el: JsRef(${snakeCaseName})) -> ${mapType(entry.type)}`);
       lines.push("");
     }
 
     if (entry.kind === "event") {
-      lines.push(doc);
+      lines.push(docLines);
       lines.push(`/// Registers a '${entry.name}' event`);
       lines.push(`pub fn ${fnName}(el: JsRef(${snakeCaseName}), cb: JsUnknown) -> Nil {`);
       lines.push(`  event.add_event_listener(el, "${entry.name}", cb)`);
