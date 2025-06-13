@@ -8,6 +8,13 @@ function toSnake(name: string): string {
     .toLowerCase();
 }
 
+function toPascalCase(name: string): string {
+  return toSnake(name)
+    .split('_')
+    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+    .join('');
+}
+
 // Helper: map simple JS types to Gleam types
 function mapType(jsType: string): string {
   switch (jsType) {
@@ -52,6 +59,7 @@ function getMergedEntries(
 
 function emitInterfaceModule(name: string, entries: any[], outDir: string) {
   const snakeCaseName = toSnake(name);
+  const pascalCaseName = toPascalCase(name);
   const filename = path.join(outDir, "src", `${snakeCaseName}.gleam`);
   const lines: string[] = [
     `// Generated from DOM interface: ${name}`,
@@ -59,7 +67,7 @@ function emitInterfaceModule(name: string, entries: any[], outDir: string) {
     "import webir/js_ref.{JsRef, JsUnknown}",
     "import webir/upcast",
     "",
-    `pub type ${snakeCaseName}`,
+    `pub type ${pascalCaseName}`,
     ""
   ];
 
