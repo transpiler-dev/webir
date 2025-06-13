@@ -1,6 +1,14 @@
 import fs from "fs";
 import path from "path";
 
+const reservedWords = new Set([
+  "type", "fn", "let", "case", "if", "else", "try", "as", "import", "pub", "use", "external",
+]);
+
+function sanitizeName(name: string): string {
+  return reservedwords.has(name) ? `${name}_` : name;
+}
+
 function toSnake(name: string): string {
   return name
     .replace(/([a-z0-9])([A-Z])/g, "$1_$2")
@@ -77,7 +85,7 @@ function emitInterfaceModule(name: string, entries: any[], outDir: string) {
 
     if (entry.kind === "method") {
       const params = (entry.parameters ?? []).map((p: any) =>
-        `${p.name}: ${mapType(p.type)}`
+        `${sanitizeName(p.name)}: ${mapType(p.type)}`
       );
       lines.push(doc);
       lines.push(`@external(javascript, "${name}.${entry.name}", "${fnName}")`);
