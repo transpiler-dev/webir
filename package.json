@@ -7,7 +7,7 @@
     "tsx": "^4.19.4"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0 || ^7.0.0"
   },
   "dependencies": {
     "ts-morph": "^26.0.0",
